@@ -1,0 +1,1317 @@
+=======================
+     2022/04/12
+=======================
+
+* Repository: /commits/Q
+
+f25506fe95 art: Disable debug tracing in production builds
+7cf5913c6c Add newStringFromUtf8Bytes native implementation.
+
+* Repository: /commits/Q
+
+f8e679714 linker: Add support for opening zip files by fd paths
+030da3df7 No global ThinLTO for linker
+d1ab5eba1 No global ThinLTO for bionic
+a303f1287 Add -Wno-ignored-pragmas.
+8f90df9d4 Fix "deprecated instruction in IT block" warning
+211e6a197 Sync libm with upstream FreeBSD.
+7cc546ff9 Inline call_array for clearer stack traces.
+7bac9c46c Switch to musl memmem (via OpenBSD).
+7ee6e5edb Sync with upstream NetBSD.
+fa765d086 Update upstream OpenBSD gdtoa.
+695f94592 fortify: remove `static`
+8b9889f1e tmpfile(3): use O_TMPFILE where available.
+957499107 pthread_cond: only call futex_wake when there are waiters
+065381ea9 on 64-bit, zero the leading stack canary byte
+b97edbd6f make __stack_chk_guard read-only at runtime
+b19d2d292 replace VLA formatting with dprintf-like function
+7ce353e80 fix undefined out-of-bounds accesses in sched.h
+3a49a7605 replace brk and sbrk with stubs
+4dcc6079b add a real explicit_bzero implementation
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+a507bc8f72ed Battery Styles: Show a bolt âš¡ when charging
+52e6768aa3b6 SystemUI: Hide clear-all button when QSPanel is expanded
+cd4ce71f9940 fw_base: OxygenOS styled dismiss all button [1/2]
+5476700c0886 SystemServiceRegistry: Replace ArrayMap with HashMap for performance
+286f748552ee LayoutInflater: Opportunistically create views directly for performance
+f8aef1751884 LocalServices: Replace ArrayMap with HashMap for performance
+02f30f58bf51 ThemedResourceCache: Replace ArrayMap with HashMap for performance
+a69d8b4b1af8 Trace: Disable debug tracing in production builds
+c87e8ad566ae statsd: Disable native stats collection service
+960fe6815363 EventLog: Disable event writing in production builds
+7f83d0c687a9 Workaround global ThinLTO build break
+1ed1d6c66d3c FIx issue: https://issuetracker.google.com/issues/183024999
+8a0afceaacdf KeyStore: Block key attestation for Google Play Services
+40ef16ee5db8 Only play sound effects if stream is not muted.
+1102f2461961 graphics: Adjust ripple animation for immediate feedback
+0684cc962617 Enforce INTERNET as a runtime permission.
+e40b87570e69 stop auto-granting location to system browsers
+548469688969 always set deprecated Build.SERIAL to UNKNOWN
+
+* Repository: /commits/Q
+
+1dcdc7397 Add dalvik-heap device configs for 8/12/16 GiB devices
+c19a887f1 libbinder - avoid pthread_cond_broadcast per call
+34c048d6f vulkan: avoid waiting for service.sf.present_timestamp creation
+d716cae45 libbinder: avoid global mutex every binder call
+92e0ec5bd libgui: Enable ThinLTO
+
+* Repository: ssh://git@github.com/AOSQP/libcore/commits/Q
+
+7067cac453 ZipFile: Add support for opening zip files by fd paths
+cf1bcb1fe0 Switch to OpenJDK 8 java/math
+37d31731a6 Add newStringFromUtf8Bytes native implementation.
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Settings/commits/Q
+
+c4eb0126c8 Settings: OxygenOS styled dismiss all button [2/2]
+
+* Repository: ssh://git@github.com/AOSQP/system_core/commits/Q
+
+563a6b4596 enable kernel mitigations for file spoofing
+46a47c9a15 enable kernel mitigations for link races
+7dfa34210b zero sensitive information with explicit_bzero
+59045dac58 tighten up mount permissions
+
+
+=======================
+     2022/04/11
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_av/commits/Q
+
+b9009c10d Fix high battery drain after using flashlight
+
+* Repository: https://android.googlesource.com/platform/prebuilts/abi-dumps/vndk/commits/refs/tags/android-10.0.0_r41
+
+8287707 vndk: remove libprocessgroup from ABI check target
+f4c15f0 vndk: remove libbinder from ABI check target
+6407bba vndk: remove libxml2 from ABI check target
+d37e580 vndk: remove tinyxml2 from ABI check target
+f615848 vndk: remove libyuv from ABI check target
+c089ec0 vndk: remove libz.so from ABI check target
+5c30bdd vndk: add symlinks for armv8-2a
+f3cd3a3 vndk: remove libpng from ABI check target
+e04de3f vndk: remove libjpeg from ABI check target
+
+
+=======================
+     2022/04/10
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/build/commits/Q
+
+66afc2872 Bump Security String to 2022-04-05
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_av/commits/Q
+
+7e86dc416 [RESTRICT AUTOMERGE] C2AllocatorIon:protect mMappings using mutex
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+e0a0717d36ca [RESTRICT AUTOMERGE] Add hide-non-system-overlay flag for HarmfulAppWarningActivity
+d1cd2a8e5097 DO NOT MERGE Prevent apps from creating blocked channel groups
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_minikin/commits/Q
+
+29a0e75 Break layout context before and after bidi control character
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Nfc/commits/Q
+
+6fda5e81 Do not set default contactless application without user interaction
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Settings/commits/Q
+
+6ad81637fe Settings: deviceinfo: Move imei information to Sim status
+e1eba8de9b Settings: Add platform and RAM to Model & Hardware
+dcbea761ab Do not let guest user disable secure nfc
+
+* Repository: ssh://git@github.com/AOSQP/system_bt/commits/Q
+
+9af505bdc Security fix OOB read due to invalid count in stack/avrc/avrc_pars_ct
+
+
+=======================
+     2022/04/09
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/device_aosqp_sepolicy/commits/Q
+
+ccb5afe AOSQP: Make FastCharge service discoverable by Settings app
+1c1799a sepolicy: add hal_lineage_fastcharge
+82f41af AOSQP: Add sepolicy for mediatek livedisplay
+
+* Repository: ssh://git@github.com/AOSQP/hardware_aosqp_interfaces/commits/Q
+
+b59418b lineage/interfaces: add fastcharge HAL
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_DeskClock/commits/Q
+
+8adf67532 Revert "DeskClock: adaptive icon"
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_DocumentsUI/commits/Q
+
+44f8763dd DocumentsUI: show internal storage by default
+
+
+=======================
+     2022/04/08
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/bootable_recovery/commits/Q
+
+3332daae roots: Correct mount flags in /etc/fstab
+e37526a5 Add controller support
+
+* Repository: ssh://git@github.com/AOSQP/build/commits/Q
+
+54240ffda proguard_flags: Remove -useuniqueclassmembernames
+4d60be2d0 releasetools: ota_from_target_files: fix build for A-Only dynamic devices not building vendor
+628b3dc8d build: Only set the default verity key as a fallback
+d433b4490 Make build ID simple
+d0ffa30ec build: Remove comment for abilist in build.prop
+42d5efb78 build: Append date to the target file names
+ecaa2b2ca Add support for separate kernels for boot and recovery [2/2]
+3aab6c5fb envsetup: Fix the way we check check_product's return value
+a7329bfcf soong: add TARGET_SPECIFIC_HEADER_PATH
+
+* Repository: ssh://git@github.com/AOSQP/build_soong/commits/Q
+
+1d1e19fd cleanbuild: Add `recovery_kernel` to installclean files
+b19d6b1c soong: move header override to compiler.go
+23848806 soong: allow overriding header files
+
+* Repository: ssh://git@github.com/AOSQP/external_cldr/commits/Q
+
+affc50f DO NOT MERGE Update Android CLDR tzdata from 2021a to 2021a3. [Q]
+785e59c DO NOT MERGE Cherry-pick CLDR-14434: Update Android CLDR tzdata from 2020f to 2021a. [Q]
+cc502f0 DO NOT MERGE Cherry-pick CLDR-14373 Updating time zone data to 2020f [Q]
+4970101 DO NOT MERGE Add new Windows time zone for Yukon Standard time. [Q]
+
+* Repository: ssh://git@github.com/AOSQP/external_icu/commits/Q
+
+fd97d1da5 DO NOT MERGE Update Android ICU tzdata from 2021a1 to 2021a3. [Q]
+dddfcea7b Update Android ICU tzdata from 2021a to 2021a1. [Q]
+cbd624dc4 DO NOT MERGE Update Android ICU tzdata from 2020f to 2021a. [Q]
+807fa1df1 DO NOT MERGE Cherry-pick ICU-21448: Update Android ICU tzdata from 2020d to 2020f. [Q]
+110630d42 DO NOT MERGE Add new Windows time zone for Yukon Standard time. [Q]
+
+* Repository: ssh://git@github.com/AOSQP/hardware_qcom-caf_msm8998_audio/commits/Q
+
+ee10c4ff Merge tag 'LA.UM.8.4.r1-06200-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into Q
+39cd66a4 Merge tag 'LA.UM.8.4.r1-06000-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into Q
+e56c0411 Merge tag 'LA.UM.8.4.r1-05900-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into Q
+b5181b81 Merge tag 'LA.UM.8.4.r1-05800-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into Q
+
+* Repository: ssh://git@github.com/AOSQP/hardware_qcom-caf_msm8998_display/commits/Q
+
+3459e643 Merge tag 'LA.UM.8.4.r1-06200-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into Q
+bbdb08c9 Merge tag 'LA.UM.8.4.r1-06000-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into Q
+251aff92 Merge tag 'LA.UM.8.4.r1-05900-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into Q
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Calendar/commits/Q
+
+3605ca57 Automatic translation import
+71424c2f Revert "AOSP/Calendar - Minimal calendar app."
+8ba392dd Revert "AOSP/Calendar - Fix the crash bug. Deleted a code fragment that remained that was selecting and viewing of the calendar events.."
+bb68ae77 Revert "Calendar: Drop no longer existing activity from manifest"
+9e58aa02 Automatic translation import
+261693ec Automatic translation import
+cf655618 Calendar: Drop no longer existing activity from manifest
+876222f3 Calendar: Don't optimize out no-arg Fragment constructors
+aa9765ca Calendar: Fix translatables
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_CertInstaller/commits/Q
+
+eeb8eeb Automatic translation import
+01e8245 Automatic translation import
+e255c0d Automatic translation import
+8c9d5c4 Automatic translation import
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_DeskClock/commits/Q
+
+9d0e3e747 Automatic translation import
+b040eab2b Automatic translation import
+c8b4269ea Automatic translation import
+9af1da3df DeskClock: fix setting alarm volume
+a646cae3d DeskClock: Snooze: Mimic dismiss reveal
+e5d50dab6 DeskClock: Set dark gray as dismiss animation
+3a4ee73c4 Automatic translation import
+2e6ae59c9 Automatic translation import
+2505a875b Automatic translation import
+7b00e0321 Automatic translation import
+fb47d6cc0 Automatic translation import
+8d533e563 Automatic translation import
+7ca372238 Automatic translation import
+654bc926e Automatic translation import
+7c6faffc9 Automatic translation import
+fc60887a0 Automatic translation import
+06e8dfc5d Automatic translation import
+0d2df8811 DeskClock: Fix alarm clock screen show black  when screen locked;
+6b409dfd4 AOSP/DeskClock - Call executePendingTransactions only if mFragmentManager is not destroyed. Fixes the crash bug. Code matches internal code.
+c0f07e73e DeskClock: Setup data model before calling super.onStart()
+687c5731a DeskClock: Fix FAB not being shown everytime
+ab8d91adb DeskClock: Remove unused imports from NotificationUtils
+2a2c9366d DeskClock: Stop depending on platform APIs
+7f27a42ea DeskClock: Remove references to org.lineageos.platform.internal
+124c8a815 DeskClock: Don't rely on framework
+470cc8d9e DeskClock: Properly align settings
+9b264a85a Automatic translation import
+45f90d304 DeskClock: Remove notification sound from firing and snoozing channels
+3eec46e2c DeskClock: Replace ViewPager with manual fragment handling
+ba7f77727 DeskClock: Fix german translation of "days"
+b2ab02b2a DeskClock: Move navigation bar to bottom
+b92b9366f DeskClock: also apply disabled color to annotations
+ec38c4a5f DeskClock: Come to the dark side...
+a7aa19e05 DeskClock: Rework notification channel implementation
+e122aac2e DeskClock: Modernize timer_setup_time look
+c9a4c9347 DeskClock: Update drawables
+07bbb2789 Revert "Remove max aspect ratio."
+9f50d5f86 Import translations. DO NOT MERGE
+416ab9333 Import translations. DO NOT MERGE
+c898301ce AOSP/DeskClock - Added SET_ALARM permission check
+8d2c5a61a AOSP/DeskClock - Updated to sdkVersion 29.
+f50363cca AOSP/DeskClock - Updated to sdkVersion 29.
+5231af0ad DeskClock: Add sysconfig whitelist xml
+e0867ff49 Automatic translation import
+9e23cc54e Automatic translation import
+50461099b Change most notfications category
+1522c0e3f Remove max aspect ratio.
+e724bc1fa Require USE_FULL_SCREEN_INTENT permission
+df129d0f0 Automatic translation import
+bc2c5747a DeskClock: Use sans-serif-thin font for the clock widget
+731e4d351 DeskClock: Add some more visible shadow to the clock widget
+b266670e8 Provide upgrade path for cm-14.1 -> lineage-17.0
+9027d95dd DeskClock: Use POWER_OFF_ALARM permission
+ba2cfa8c2 DeskClock: Add support of power off alarm feature
+6d02114a6 DeskClock: Add back flip and shake actions
+f27a35ad3 DeskClock: adaptive icon
+11a3fe505 Deskclock: define app category
+dec643e5f AOSP/DeskClock - Fix improperly formatted resource strings in DeskClock.
+fa4dc1155 DeskClock - Moved the android:targetSdkVersion to 25 to fix "Clock has stopped" message displayed when Alarm trigger.
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_DocumentsUI/commits/Q
+
+28d0124cb Automatic translation import
+1465cf034 Automatic translation import
+7e35ab5a9 Automatic translation import
+fe22a0f40 Automatic translation import
+2f673bd3e Automatic translation import
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_EmergencyInfo/commits/Q
+
+b910790 Automatic translation import
+d47d8cf Automatic translation import
+baa4002 Automatic translation import
+9fd0779 Automatic translation import
+37e0d1e Automatic translation import
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_FMRadio/commits/Q
+
+17319e5 Automatic translation import
+e6132bd Automatic translation import
+38f66db Automatic translation import
+b609f1c Automatic translation import
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Gallery2/commits/Q
+
+a5b705694 Revert "Gallery: adaptive-icon"
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_SettingsIntelligence/commits/Q
+
+bdb271c Automatic translation import
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Snap/commits/Q
+
+af365cc92 Snap: Mark strings as non translatable
+2f5d53627 Automatic translation import
+b62b8d74b Automatic translation import
+46e24ead5 Automatic translation import
+0c2cd3294 Automatic translation import
+77bd3611e SnapCam: Fix thumbnail not update
+783b9ef4b Snap: Save SDCard photos to legacy path
+1a293cb20 Revert "Snap: Remove saving to sdcard"
+988d1b99a Automatic translation import
+237c122ad Snap: Remove warnings for generated ids
+3ce7ac424 Automatic translation import
+27f546c80 Automatic translation import
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Stk/commits/Q
+
+d0356b3 Automatic translation import
+a5f5a14 Automatic translation import
+7a49f73 Automatic translation import
+094cfe9 Automatic translation import
+0549f2c Automatic translation import
+
+* Repository: ssh://git@github.com/AOSQP/packages_modules_CaptivePortalLogin/commits/Q
+
+79eefed Automatic translation import
+eb7aa8c Automatic translation import
+
+* Repository: ssh://git@github.com/AOSQP/packages_providers_CalendarProvider/commits/Q
+
+e4e2a83 Automatic translation import
+dd8b41d Automatic translation import
+48c20d7 Automatic translation import
+b3ea220 Automatic translation import
+f07e8bd Automatic translation import
+
+* Repository: ssh://git@github.com/AOSQP/system_timezone/commits/Q
+
+ee7c2bd DO NOT MERGE Update Android TZDB from 2021a1 to 2021a3. [Q]
+489fdcc Make tzdata revision settable.
+6d3d677 Update Android TZDB from 2021a to 2021a1. [Q]
+a92668b DO NOT MERGE Update Android TZDB from 2020f to 2021a. [Q]
+12fe0b2 RESTRICT AUTOMERGE Update Android TZDB from 2020d to 2020f. [Q]
+7fc4920 DO NOT MERGE Create a boot-looping version of the tzdata apex. [Q]
+
+* Repository: ssh://git@github.com/AOSQP/vendor_aosqp/commits/Q
+
+33fba98b kernel: Add TARGET_FORCE_PREBUILT_KERNEL flag
+11962e46 kernel: Use Clang as HOST_{CC,CXX}
+8100d1ba envsetup: Fix long time broken path to sh
+f9ba2260 envsetup: dopush: Correct paths
+569b43b0 config: Set defaultSupervisionProfileOwnerComponent
+d538c3be Changed protocol from IPV6 to IP for Telus
+68e4e08a vendor: apns: Add auth_type explanation
+081c961d vendor: apns: Fix wrong IPV4 protocols
+54dbac82 vendor: apns: Remove unused "spn" attribute
+ad78c10b vendor: apns: Correct Telia
+cb287fba apn: Update giffgaff APN
+4f0a3cf9 apns: Update Vodafone NL
+6ddc3f0b overlay: update default wallpaper for large-notouch
+54400ec8 AOSQP: Don't enforce specifying image name on prebuilt kernel
+85066ca4 Add support for separate kernels for boot and recovery [1/2]
+651ef4bc apns: Add IPV4V6 to EE (UK)
+f2eca9a9 apns: Add AT&T 310-280 ids
+fde4a585 apns-conf: Add TPG Singapore configs
+6c3a6017 apns: Remove T-Mobile UK
+00c58efc vendor: apns: Add LIDL Connect
+289ac4ce apns-conf: Add Kena Mobile entries
+8fe208d2 apns-conf: Update PosteMobile entries
+9b48c96c apns-conf: Add ho.mobile configs
+13d870c1 apns-conf: Update CoopVoce entries
+24a8257d apn: Add Visible Wireless (VZW)
+c3d80b55 roomservice: Set exit status if we fail to fetch data from github
+b8952f09 AOSQP: Handle build type suffixes properly
+af14ab61 Allow unified location provider as possible location provider (not as used location provider)
+5ca5e3ca Update the GMS location provider name
+6a57761d Adjust to 4.2 location provider config format
+150b4345 AOSQP: Add config for network location provider
+18189184 overlay: Define default Wellbeing Package
+47605637 apns: Add Belong
+1a396638 Enable IPV4V6 for APN Yesss
+0e881b60 apns: Fix giffgaff
+a016a76a Dialer: Add visual voicemail configs from Google Dialer
+49895b21 qcom: Add bengal platform
+cb3df91b AOSQP: apns: Update T-Mobile US to reflect latest carrier changes
+62a50a27 extract_utils: generate_prop_list: Ignore vdex/odex files too
+a8cc02f3 apn: Ting: Adding missing flag to list of types
+aecc58c7 repopick: Use project revision if available
+660926c7 apn: Update Greek APN list
+d351837a overlay: Add ignored backup transport overlay for Settings
+
+* Repository: ssh://git@github.com/AOSQP/vendor_qcom_opensource_fm-commonsys/commits/Q
+
+9047c9e Automatic translation import
+a90fe04 Automatic translation import
+a0894fe Automatic translation import
+9820165 Automatic translation import
+d01e4d1 Automatic translation import
+f7ef100 Automatic translation import
+
+
+=======================
+     2022/04/07
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/build/commits/Q
+
+786538f23 build: Remove some debugging props
+646926e11 core: makefile: Use 'release-keys' for build tag
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+b725802e0583 base: fix sim colors mistakenly added at https://github.com/BrianTestShit/android_frameworks_base/commit/32e9478e3923d1cb292503c54c145f3ac553bc54
+6a1225bf0b37 base: use some google pixel colors
+
+* Repository: ssh://git@github.com/AOSQP/manifest/commits/Q
+
+3629785 manifest: Track our WallpaperPicker2 repo
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Contacts/commits/Q
+
+33cfb2c33 Revert "Contacts: adaptive icon"
+0167956bf Automatic translation import
+8fd0b8d8e Automatic translation import
+0bbab19b4 Automatic translation import
+be5d56538 Hide non system overlays in ContactSelectionActivity
+7fa7a81a7 Prevent overlays on vCard import flows
+6fa710fd9 Automatic translation import
+02af7f59f Automatic translation import
+c54fde864 Contacts: Make the launch screen follow the system theme
+091c2fbb9 Contacts: manually configure dark theme for list
+75ae7ce3f Contacts: allow framework to do dark theming automatically
+6b33a3cb3 AOSP/Contacts - Updated to sdkVersion 29.
+119fab124 Automatic translation import
+0c784cbb4 Automatic translation import
+278b22d99 Automatic translation import
+e4865e6c8 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Contacts into Q
+2a97c6ae8 Automatic translation import
+1f1e148e2 Contacts: use white nav bar
+05a4378b7 Allow calling contacts via specific phone accounts.
+fa24c6f5d Place EmergencyInfo shortcut on drawer
+614c0ba65 Place MyInfo shortcut on drawer
+dd063ad99 Contacts: Enable support for device contact.
+282d7aa85 Contacts: Remove unused boolean resource
+17e9d6e7b Contacts: Up minimum SDK to 26
+aaebe4de5 Contacts: update splash screen to match the new icon
+f4e5f1eae Contacts: adaptive icon
+4677eec83 Contacts: define app category
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Dialer/commits/Q
+
+8d9c546fe Revert "Dialer: adaptive icon"
+f8faa68d6 Automatic translation import
+ffd82d4bf Automatic translation import
+eb22388d6 Automatic translation import
+eec7a7a6b Fix selecting phone account dialog show error.
+8e12a674e dialer: Allow Call Recording For Bangladesh
+093492c89 Automatic translation import
+bd6bae786 Automatic translation import
+ca8cd3c71 Automatic translation import
+48eac0468 Automatic translation import
+02ae37c7e Automatic translation import
+bb4a29d4d Automatic translation import
+02cdbb50f Fix theme for PostCallActivity
+ba9d624dc Dialer: Fix launch screen status bar color
+be2b0e1af Dialer: Use a DayNight launch theme
+61a774594 Fix translation of 'contacts' tab title and main menu.
+123873cd9 Automatic translation import
+253aea10d Iterate old recordings properly when migrating call recording data.
+62aa52c72 Refactor call recording to use MediaProvider.
+689abebdb  Failed to show hold call when user click swap and merge simultaneously
+d4a2ca417 Fix FATAL Exception in PostCallActivity
+6ca3ce13c AOSP/Dialer - Fix improperly formatted resource string in Dialer across many languages.
+02ad1732e Fix the issue that automatic mute state remains ON after adding VT call
+1704d35c6 Fix error case which session change request failed when pausing video
+045a5e539 Fix for button flickering issue when video call screen rotates
+24658eb25 Fix to update peer dimensions when video screen resumes foreground
+1ab68dc58 Fix issue that the hold label is not shown during remote video holding
+b8ebcc320 Fix preview image overlaps a call button during video call
+c666e590e Dialer: allow framework to do dark theming automatically
+773d968bd Updated target SDK from 28 to 29.
+d6a4aaaeb Automatic translation import
+fbc71e639 Dialer: Add extra privapp permissions xml
+ef822ce04 Automatic translation import
+a931c2863 Automatic translation import
+0249932b2 Require unlock for custom SMS dialog
+a94324e8e Automatic translation import
+83e6cb650 Beautify call stats details category headers.
+be4020730 Enable call recording for Iran
+ac9dbb39f Enable call recording for China
+2c5b0cd89 Base 'call recording allowed' decision on current country.
+7a90c7ec0 Fix crash in call stats.
+679381eac Dialer: AudioModeProvider: use wired route for usb headsets
+a667e4bdb Control dialer's incoming call proximity sensor check via an overlay
+ead2089f3 Re-add call statistics.
+b7395e41f Allow per-call account selection.
+ea2d42a94 Re-add call recording.
+1452f06fd Add setting to enable Do Not Disturb during calls
+05925841d Generalize the in-call vibration settings category
+21152f606 Re-add dialer lookup.
+2d815d7a8 Allow using private framework API.
+acda83a30 Add back in-call vibration features
+2a842a34e Revert "Remove dialer sounds and vibrations settings fragments and redirect to the system sound settings fragment instead."
+fa124d1cb Dialer: disable anti-falsing for call answer screen
+f7156e07c Dialer: handle database upgrade from cm-14.1
+9d8bdd80c Dialer: adaptive icon
+bc25b6393 Dialer: define app category
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Messaging/commits/Q
+
+70c5ee7 Revert "Messaging: adaptive icon"
+6c6d170 Automatic translation import
+c5c4455 Automatic translation import
+d754ce2 Automatic translation import
+383c262 Automatic translation import
+2f14ef5 Automatic translation import
+61712f3 Automatic translation import
+dbe409b Fix NoSuchMethodError for getTypeInfo()
+769094b Remove advanced category if no preference
+138947f AOSP/Messaging - Changed minSdkVersion to 19.
+e1fcc27 Fix SecurityException at getActiveSubscriptionInfoList() on N and O
+33be592 Fix app initialization issue if no permissions
+4be640d AOSP/Messaging - Changed midSdkVersion to 14 and reverted to using Telephony.Carriers.CONTENT_URI instead of  Telephony.Carriers.SIM_APN_URI.
+6a963ca Fix handling format based on API level accordingly.
+4e47910 Remove only one Lambda Exp for JAVA 7
+604acd7 Fix creating ConnectivityUtil to work on any platform
+9a7f114 Fix missing computeIfAbsent() method in L_MR1 and M
+ba9f9a7 Remove unnecessary methods from MmsUtils
+ab38164 Allow call to phone numbers or voice mail numbers only
+36d521e Check CONFIG_SEND_MULTIPART_SMS_AS_SEPARATE_MESSAGES always
+f1e3757 Fix ConcurrentModificationException
+3e8c022 Parse recipients from RESPOND_VIA_MESSAGE correctly
+b29bfae Auto re-sending MMS for all the transient failures
+8927a00 Remove dead code
+0a94305 Check whether dialable only
+4679d30 Messaging: fix launch screen status bar color
+bf43ab8 Messaging: Fix quick reply choices on wearable devices
+92d44c2 Messaging: Fix quick reply feature on non wearable devices
+c33e089 Messaging: Use a DayNight launch theme
+f01f68f Automatic translation import
+f988bc2 Messaging: Require external legacy storage
+4f293b2 Import translations. DO NOT MERGE
+9a3cbcc Rescheduling pending messages after outside window failure
+e80f388 Fix NPE on MultiConversationNotificationState
+e654f3b Hide APN prefs if platform APIs are used
+e091c4b Use ic_add_white for consistency instead
+9b45945 Fix to show APN prefs correctly
+5c8718f Fix NPE
+d6dd10b Handle delivered messages as completed messages
+4d20bfa Messaging: Contact Colors
+52eb9f0 Messaging: disable auto dark theming on message bubble
+eb84e93 Messaging: allow framework to do dark theming automatically
+933ce58 Messaging: bump target SDK version to 29
+31a1d1d Messaging: Fix sysconfig whitelist filename
+cf4fbce Messaging: Add sysconfig whitelist xml
+fd8d36a Automatic translation import
+e2a61d4 Dismiss SnackBar when detached
+d88c8ad Fix assert fail during onSaveInstanceState()
+17e39e3 Automatic translation import
+a606a84 Messaging: Show quick reply choices only on wearable devices
+047d64f Fix WindowLeaked issue on AttachmentPreview
+53737fc Fix undesirable ripple effect on GalleryGridView
+085e6b6 New interface to pick a contact as attachment
+ceb3e91 ProcessPendingMessagesAction works based on subscriptions
+0607253 Allow intent shared subject or title to be mms subject
+3022709 Update runner to AndroidJUnittest
+e34622b Support audio attachments through GalleryMediaChooser
+35fc115 Support video attachments through GalleryMediaChooser
+074c6bb Show attachments size during composing MMS
+a824734 Do not show the fail icon for a group conversation
+f5bb124 Actual attachments size is the minimum size except images
+9fda19d Allow acceptable media types only for sharing
+048ff55 Support sharing with image/video/audio/vcard and text fully
+e1fdb1f Revert "Messaging: Implement saved video attachments in MMS"
+ff065eb Revert "Added support for video and audio mms attachments"
+c4f62b4 Revert "Fixed storage permission issue for attachments"
+28931f5 Revert "Messaging: Don't crash on unsupported shared content type"
+3c2cd9a Revert "Allow intent shared subject or title to be mms subject"
+ac9018f Messaging: Handle multiple participants in custom notifications
+cd97bac Fix android.os.strictmode.LeakedClosableViolation
+a7f1f79 Register implicit broadcasts at runtime for updating widgets
+4dfaa94 Fix to show PersonItemView for TYPE_CHOOSER_GRID correctly
+d7a721e Fix covering issue for video thumbnails on widget view
+f94f310 Fix wrong margin on widget conversation view
+98616d5 Use file extension based on MIME type
+829df86 Fix showing wrong image on document picker item
+bdf6a02 Automatic translation import
+9de3930 Messaging: Notification channel string fixes
+039036e Messaging: Implement per conversation channels
+3dfd427 Don't build with platform certificate
+a4bb56c Messaging: use white nav bar
+f7ac584 Allow intent shared subject or title to be mms subject
+f74125a Messaging: Add "Mark as read" quick action for message notifications
+af40608 Messaging: Fix crash of blocked participant list activity
+b2ff95a Messaging: Don't crash on unsupported shared content type
+47f245c MediaPicker: Check for NPE
+5055e0b Messaging: fix bad recycle on sending two mms in a row
+b27fe41 Messaging app crashes after a few MMS
+30d4809 Fixed storage permission issue for attachments
+944469b Added support for video and audio mms attachments
+0e18e80 Play an audible notification on receiving a class zero message.
+4d951f5 Messaging: Implement saved video attachments in MMS
+a44ff2f Messaging: bring back accent color
+c9d8ea2 Fix menu item highlight color.
+400c675 Messaging: Toggable keyboard emoticons access
+b4f2048 MessageQueue: Process pending messages per subscription
+7310bb9 Messaging: change Avatar fontFamily to sans-serif-medium
+34e3d6c Messaging: Implement option for swipe right to delete.
+05f0618 Messaging: adaptive icon
+772f57c Messaging: define app category
+1430e0a Move libgiftranscode.so to /product
+6d149a3 Move Messaging to /product
+c2c3ce5 Fix FATAL EXCEPTION on SmsStorageLowWarningActivity
+8bb835a Ignore unexpected ACTION_DOWN for SIM avatar icons
+2830038 Sort ParticipantsData in order of the slot id
+b7aa35b Fix GetOrCreateConversationActionTest failure
+fe5c2c6 Replace no error code '0' for SMS with '-1'
+d50d29e Apply new duplication detection logic for M-Notification.ind
+b5c365a Fix wrong PreferenceCategory for SMS delivery report
+699f928 Fix assertion failures caused by different instance type
+98fc9a5 Fix MMS Config issues in Debug menu
+58c421a Use correct format info for SMS
+5efd22c Fix SMS status handling
+bd809f7 Fix X-Mms-Transaction-ID of M-Acknowledge.ind
+f561d95 AOSP/Messaging - Fix many improperly formatted resource strings in Messaging.
+0f31253 AOSP/Messaging - Moved LOCAL_COMPATIBILITY_SUITE to tests/Android.mk. + Deleted the unnecessary blankId check. Updated the TODO comment for NUM_TEST_CONVERSATIONS+4. + Added AndroidTest.xml + Added "LOCAL_PROGUARD_ENABLED := disabled" for tests to pass on cf.
+6e7be61 AOSP/Messaging - Remove TEST_MAPPING because presubmit tests fail on build_target: aosp_cf_x86_phone-userdebug
+7143ec9 AOSP/Messaging - Update the Messaging version to 24 until notification related logic changes are made. Fixes the error "Developer warning for package com.android. messaging failed to post notification on channel null".
+5afb3c5 Messaging: Fix generating id in android namespace
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Settings/commits/Q
+
+b01dc2925b Settings: add `AOSQP` Banner
+995e461110 Settings: show `AOSQP` version short [2/2]
+51b4df8abe Settings: Add deep sleep info to uptime
+4b5721af29 Settings: Bring back Uptime
+7231ab3b22 Revert "Restore the up time preference."
+
+* Repository: ssh://git@github.com/AOSQP/packages_inputmethods_LatinIME/commits/Q
+
+f911d53c1 Automatic translation import
+b18572f57 Automatic translation import
+bc687a7ea Automatic translation import
+f3a39ca98 Automatic translation import
+813683a3a Automatic translation import
+8d94d57f4 Automatic translation import
+b94cee659 Automatic translation import
+f9b043bef LatinIME: Fix NPE in getKeyboardThemeName
+4a8d7552b Automatic translation import
+00f170383 Automatic translation import
+d874cfbf7 Include Bulgarian Extended Keyboard Layout
+62cb625d5 Automatic translation import
+4a97548a0 Automatic translation import
+c52ba31bc Automatic translation import
+17d46c686 LatinIME: Move keyboard height setting from debug to advanced
+311486d3a Automatic translation import
+813a90445 Automatic translation import
+812253341 Update Bulgarian wordlist
+21637d55b Support polytonic Greek diacritics in the Greek keyboard
+3a34e48d7 Implement text entry key API for accessibility services in AOSP Keyboard
+4b204a6b5 Create display context when switching IME to new display for AOSP IME
+d848406a8 LatinIME: Update key_styles_currency euro lists #2
+5578ebafe LatinIME: Fix back-arrow finishing activity
+af10c9f97 LatinIME: Remove dividers everywhere
+15c90d2f5 Automatic translation import
+0c041e480 LatinIME: Remove divider lines
+0f054b992 LatinIME: Do we really still want Holo?
+a0033a369 LatinIME: Add setting for theme to follow system setting
+41152eab6 LatinIME: Add Variation Selector-16 to emojis that have default text presentation
+eb96c67e9 Automatic translation import
+3d96815a1 Automatic translation import
+4b1efa6ed Revert "Don't crash when displaying the " key"
+009eab9f2 LatinIME: Update key_styles_currency euro lists.
+2bbda1a5e Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/inputmethods/LatinIME into Q
+c7b6b2311 LatinIME: Hide emojis that are missing colored glyphs
+b782fc42b LatinIME: Update emojis
+7eeab7311 Automatic translation import
+658cc09a9 LatinIME: Add Luxembourgish keyboard & spellchecking dictionary
+3e3c5927b LatinIME: Add support for Australian English
+cbb41e3fc Add support for BÃ©po keyboard layout
+4867e717e LatinIME: Add Hungarian QWERTY, enable predictive dictionary
+85383bfce LatinIME: HU enable predictive dictionary and remove unused letters
+18b4ed3f3 LatinIME: Enable spellchecker for additional languages
+4ef49143a LatinIME: Add Bulgarian, Georgian and Ukrainian wordlists
+a474f3826 LatinIME: Set proper keyboard for Georgian script
+617348b34 LatinIME: Add new type for Bulgarian script
+197dfaa33 LatinIME: Add "more" keys to ALL the keys
+5464573ab LatinIME: Add shortcuts support
+547072dc1 Don't interrupt active gesture input by modifier key presses.
+1ce94010d LatinIME: Add fallback loader for JNI lib
+092816565 LatinIME: sync and rebuild emojis
+22a102565 LainIME: add unicode 9.0 chars
+fcf77e409 LatinIME: disable sound on keypress on all devices by default
+46f2c1166 LatinIME: Regenerate KeyboardTextsTable
+f2ffa6c3b LatinIME: support for incognito mode
+5dd44d490 Don't crash when displaying the " key
+fb0cfebb5 Fix send button not being centered for non-standard densities.
+49bc4779f Remove extend touchable region for AOSP keyboard
+
+* Repository: ssh://git@github.com/AOSQP/vendor_aosqp/commits/Q
+
+591ea7f4 vendor: show `AOSQP` version short [1/2]
+
+
+=======================
+     2022/04/06
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+315ec6f5af34 SystemUI: Launch PowerUsageSummery when battery icon is pressed
+ae7a7a48052a base: SystemUI: enhance calendar link
+
+* Repository: ssh://git@github.com/AOSQP/hardware_qcom-caf_sm8150_audio/commits/Q
+
+56db6b4a Merge tag 'LA.UM.8.1.r1-17800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into Q-sm8150
+
+* Repository: ssh://git@github.com/AOSQP/hardware_qcom-caf_sm8150_display/commits/Q
+
+f68f20eb Merge tag 'LA.UM.8.1.r1-17800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into Q-sm8150
+3a70611e Revert "display: Squashed revert of LA.UM.8.1.r1-14300-sm8150.0"
+
+* Repository: ssh://git@github.com/AOSQP/hardware_qcom-caf_sm8150_media/commits/Q
+
+5d30b289 Merge tag 'LA.UM.8.1.r1-17800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into Q-sm8150
+
+* Repository: ssh://git@github.com/AOSQP/manifest/commits/Q
+
+aa35de0 manifest: Track external/chromium-webview repos from LOS
+b38766e manifest: Track our some repos for Vanilla build
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Contacts/commits/Q
+
+34bf96bec Merge tag 'android-security-10.0.0_r64' of https://android.googlesource.com/platform/packages/apps/Contacts into Q
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Dialer/commits/Q
+
+afbd37c8b Merge tag 'android-security-10.0.0_r64' of https://android.googlesource.com/platform/packages/apps/Dialer into Q
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Settings/commits/Q
+
+5c8c0b6e48 Settings: add toolbar rounded and more
+a1a048887d Settings: Disable Google Play system update check
+117e41977a Settings: Remove GPlay version entry
+40f598d93b Settings: Add back SELinux info
+cc060eac10 Settings: Change kernel preference behavior
+9e19859368 Settings: Show full proc/version information
+5dde6e09cd Settings: Add AOSQP version to "About Phone".
+91772efb03 Settings: Use an xml property for maintainer string * No need to use a build.prop for this and overlaying from DT will be easier for maintainers this way * A partial revert of aa95452a54
+
+* Repository: ssh://git@github.com/AOSQP/vendor_aosqp/commits/Q
+
+d0615699 vendor: build WallpaperPicker2
+35f2d7a9 vendor: make GApps build optional
+
+
+=======================
+     2022/04/05
+=======================
+
+* Repository: /commits/Q
+
+42a667dda7 Fix dm-test invocation
+8acf21cdf9 Do not accept vdex with dex sections from .dm files
+43c172f10b Add SafetyNet logging to JNI::NewStringUTF.
+15985c17bb Validate input of JNI::NewStringUTF().
+
+* Repository: ssh://git@github.com/AOSQP/build/commits/Q
+
+45c40c228 Bump Security String to 2022-03-05
+0a18bcfbb Bump Security String to 2022-02-05
+0a569b4a1 Bump Security String to 2022-01-05
+041e9160d Bump Security String to 2021-12-05
+3f971d495 Bump Security String to 2021-11-05
+13ce3f223 Bump Security String to 2021-10-05
+ed32dc5da Bump Security String to 2021-09-05
+837fb421e Bump Security String to 2021-08-05
+25e6a84c4 Bump Security String to 2021-07-05
+249d5d2cf Bump Security String to 2021-06-05
+5371e7139 Bump Security String to 2021-05-05
+c171f64f9 Bump Security String to 2021-04-05
+672eeac1c Bump Security String to 2021-03-05
+f9896244d Bump Security String to 2021-02-05
+6fb59df3a Bump Security String to 2021-01-05
+
+* Repository: ssh://git@github.com/AOSQP/external_chromium-libpac/commits/Q
+
+1b0db36 Upgrade V8 to 8.8.278.14
+
+* Repository: ssh://git@github.com/AOSQP/external_dnsmasq/commits/Q
+
+845a829 dnsmasq: fix heap overflow
+
+* Repository: ssh://git@github.com/AOSQP/external_gptfdisk/commits/Q
+
+6ffd81c RESTRICT AUTOMERGE ANDROID: Fix negative stack write in sgdisk
+
+* Repository: ssh://git@github.com/AOSQP/external_libavc/commits/Q
+
+4df8432 Move slice increments after completing header parsing
+40a8ec6 Decoder: Update check for increment u2_cur_slice_num
+0a0e71b encoder: fix invalid free of raw buffers
+4a0b75d avcenc: Add bitstream overflow check during emulation prevention
+38b6123 decoder: Update check for first mb in slice
+
+* Repository: ssh://git@github.com/AOSQP/external_libexif/commits/Q
+
+1a9e8c8 Zero initialize ExifMnoteData<vendor> during construction with exif_mnote_data_<vendor>_new.
+aba0bc2 Ensure MakeNote data pointers are initialized with NULL.
+cee3493 Fix MakerNote tag size overflow issues at read time.
+e67e0e8 fixes some (not all) buffer overreads during decoding pentax makernote entries.
+
+* Repository: ssh://git@github.com/AOSQP/external_okhttp/commits/Q
+
+9da183e [DO NOT MERGE] Reject non-ASCII hostnames and SANs.
+
+* Repository: ssh://git@github.com/AOSQP/external_skia/commits/Q
+
+e4ddbb6aa6 Only treat PNG_COLOR_TYPE_RGB as 565
+
+* Repository: ssh://git@github.com/AOSQP/external_sonivox/commits/Q
+
+d032197 sonivox: Fix global buffer overflow in WT_InterpolateNoLoop
+
+* Repository: ssh://git@github.com/AOSQP/external_sqlite/commits/Q
+
+fe5fca5 DO NOT MERGE Fix floating point to text conversion overflow
+
+* Repository: ssh://git@github.com/AOSQP/external_tremolo/commits/Q
+
+2f4c64a handle cases where order isn't a multiple of dimension
+
+* Repository: ssh://git@github.com/AOSQP/external_v8/commits/Q
+
+74008afa Upgrade V8 to 8.8.278.14
+a867ec61 LiteralBuffer::ExpandBuffer always grows
+55aba46a [parser] Fix off-by-one in parameter count check
+
+* Repository: ssh://git@github.com/AOSQP/external_wpa_supplicant_8/commits/Q
+
+0784d7cf P2P: Fix a corner case in peer addition based on PD Request
+04819887 P2P: Fix copying of secondary device types for P2P group client
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_av/commits/Q
+
+ab234a09c SimpleDecodingSource:Prevent OOB write in heap mem
+ad337c135 C2SoftMp3Dec: fix OOB write in output buffer
+55066e455 Fix heap-buffer-overflow in MPEG4Extractor am: d13a4efc7a
+ed29e312a aaudio: unlock when joining the timestamp thread
+d0791726a aaudio: prevent deadlock when stop() calls disconnect()
+4466cb51a C2SoftAvcEnc: Allocate output buffer as per clip's dimensions
+4b6fdd65c DO NOT MERGE Add fmq function instantiations to preserve ABI
+2a7bed9ba [RESTRICT AUTOMERGE] Fix clearkey CryptoPlugin use after free vulnerability.
+a6be1af70 Fix possible uaf of play policy state
+c539f0688 [RESTRICT AUTOMERGE] Fix UAF in clearkey service's MemoryFileSystem
+d87a85f2f [RESTRICT AUTOMERGE] Fix potential decrypt destPtr overflow.
+e1ff2d23e Fix double free of play policy in a race condition.
+3861737f4 Fix potential decrypt src pointer overflow.
+07a2c9cbb aaudio: lock transport methods
+feeb67b2f Prevent read of uninitialized memory
+0699c06d4 Fix potential overflow in WAV extractor
+9004eb278 Fix memory overflow in ESQueue
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+b45a37fdc8d6 base: Add setting for clamp min auto screen brightness [1/2]
+c37cb490020f Revert "Clamp brightness thresholds to the maximum brightness."
+e4c9fca87cf9 SystemUI: Qs: enable quick QS brightness slider by default [1/2]
+e088bbbb3abb SystemUI: Increase Max visible notification icons to 5
+35199c3436d4 Fix up statusbar paddings for devices with display cutouts
+ee32b10fc25a SystemUI: Qs: nuke settings button rotation animation
+b8877f2b3a29 Brightness slider: Visual improvements
+a4e18ad6a789 base: OOS style brightness thumb
+5911a24d27e7 QS brightness slider: Update brightness thumb vector
+f2166c7278c8 SystemUI: Qs: set background VPN to transparent
+26a26b1cea6a SystemUI: Qs: change color of brightness_progress_drawable
+83371ed93c2f SystemUI: Qs: Increase qs_quick_tile_size to 50dp
+563549751c22 SystemUI: Qs: match brightness
+ae0b4dc1b95e SystemUI: Qs: match tiles
+db288f062503 SystemUI: Qs: nuke notification_side_paddings for now
+224ab32d6690 Revert "Revert "Do not show the notification footer until the user is set up.""
+1f6bd0581fd3 Check group channels for FGSes
+b325e268cf7e Prevent a crash when constructing NSSL.
+2cc4ab835093 Persist destroyed staged sessions until they are cleaned up
+8844f7f40f5a Don't abandon child sessions (1/n)
+a763be610f57 RESTRICT AUTOMERGE Remove line of code that was mistakently left in.
+92bd490e687b Force-set a ClipData to prevent later migration.
+e8508517989c Allow forcing status bar state changes and do so when the screen turns off.
+61173f73d851 Revert "Revert "[pm] remove old stage dirs on low storage""
+12a2170658f9 Prevent apps from spamming addAccountExplicitly. See comment here for the discussion on solution https://b.corp.google.com/issues/169762606#comment14
+9ca2c7b54957 Prevent apps from spamming addAccountExplicitly. See comment here for the discussion on solution https://b.corp.google.com/issues/169762606#comment14
+c1c06f21db0b Revert "Do not show the notification footer until the user is set up."
+b9f4c648a2c0 Disallow overlays for ResolverActivity
+26cd3c39aafe Do not show the notification footer until the user is set up.
+08bf3b85a6a6 Fix NPE on getTitle()
+5cb6587917db Fix serialization bug in GpsNavigationMessage
+9dd4e7decfc9 TIF: fix issue of using caller-aware methods after clearCallingIdentity()
+507ae40e8e00 Backporting the change of ag/15629060 to qt-dev
+7923525653b8 DO NOT MERGE Bluetooth: Fix formatting in getAlias()
+53a4597be209 camera2: Fix exception swallowing in params classes createFromParcel
+f80937344880 DO NOT MERGE Apply a maximum char count to the load label api
+441979b41bea Send targeted broadcasts to prevent other apps from receiving them.
+f250a85431e4 Guard DISABLE_PLUGIN with PLUGIN permission.
+1f7a75e2ff43 Fix background bypass via notifications
+5c9108fc0237 Change ownership of the account request notification.
+77a00447733b Fix a potential thread safety issue in VectorDrawable
+99e5eea23ac8 Don't attach private Notification to A11yEvent when user locked
+4d3715c671c3 Improve ellipsize performance
+c0cd78f9d472 DO NOT MERGE Add cross-user check for getDefaultSmsPackage().
+4193e95a1e77 Fix side effects of trace-ipc and dumpheap commands
+66770106af23 Fix race condition between lockNow() and updateLockscreenTimeout
+377bd79bf969 [security] SubscriptionGroup is exposed to unprivileged callers
+df3b832804cf [RESTRICT AUTOMERGE] Fix OOB write in noteAtomLogged
+831f9702ea39 Allow empty tokens in strict grammar
+9429767755d8 Restrict alarm broadcast
+2f397f6b53e9 Ensure storage permission revoke happens for all users
+6fc5b34b8a75 Detects all activities for whether showing work challenge
+06ba16135c58 DO NOT MERGE - Disallow deletion of channels with FGS notifications
+af203ac06c83 Increase maximum allowed size for status bar icons
+c60a6e1981b6 Limit maximum allowed size for a status bar icon
+26cc739bf4e9 Adds caller check to getAllPackages()
+d674df1084e9 Add pkg target to snoozing alarm
+c220b4135df4 Revoke storage on SDK downgrade or new full storage request
+e201a1c2a813 [RESTRICT AUTOMERGE] Use userId instead of USER_CURRENT in shouldLockKeyguard.
+c90d982ddb5f [DO NOT MERGE] Close screenshot process on user switched
+dad5ab610291 [SettingsProvider] extend font size scale range
+d83dbe76735b DO NOT MERGE: Do not inject mock location to chipset
+e10647020364 Add method to clear out SubscriptionInfo#getCardString
+f4eb4c06b6b9 Whitelist READ_PRIVILEGED_PHONE_STATE for the contacts provider
+28d6a14b3b3a Update the getIccId docs to reflect access requirements
+94d59edc49b7 Protect account chooser activities against overlay.
+0e7e7947bd37 [SettingsProvider] fix font size scale validator
+7821181929a6 RESTRICT AUTOMERGE Ensure caller identity is restored in CP quick-path.
+e58598673eea Remove updateIntentVerificationStatusAsUser from ResolverActivity
+2480bbe01bbd Revoke the uri permission when the file is deleted
+18a447f617cb [RESTRICT AUTOMERGE] Restrict app transition maximum duration
+759a89a29a53 Ignore GrantCredentials call with unexpected calling uid.
+a8b9eeba4929 Protect GrantCredentialsPermissionActivity against overlay.
+3bdbe7290981 [DO NOT MERGE] Make GlobalScreenshot PendingIntents immutable
+d2fe957d4e65 Revoke permission on non-runtime -> runtime upgrade
+ed4533ea8f3e Ensure permissions are revoked on state changes
+766eaa075537 Hide overlays over uninstall confirm dialog
+0cd6ffc0f2cd RESTRICT AUTOMERGE Fix CDM package check
+502e89519db6 remove sensitive pii from safetynet logging
+bfc1ba66c80f DO NOT MERGE Revoke install permissions when the permission defining app is uninstalled.
+3fa26fad6260 DO NOT MERGE Check fingerprint client against top activity in auth callback
+4b6ba8b1bb39 Fix the issue provider can be wrong when requesting slice permission
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_minikin/commits/Q
+
+05dbf68 Update isNewEmoji to check Unicode 12 in Minikin. am: c467310f8d
+
+* Repository: /commits/Q
+
+3229c72dd Check if the window is partially obscured for slippery enters
+78c242525 libbinder: uptimeMillis returns int64_t!
+7d7a1b763 Do not modify vector after getting references
+523706a14 libbinder: readString*Inplace SafetyNet (II)
+99bbb5cd2 libbinder: check null bytes in readString*Inplace
+28a986bef SF: update mInputFlinger on main thread
+cb58b15a3 Prevent mEventCache UAF in SensorEventConnection
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_opt_net_voip/commits/Q
+
+7964a66 Add permission for the broadcast intent with SIP profiles for security purpose.
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_opt_net_wifi/commits/Q
+
+f8ec52905 Use EUI64 IPv6 link-local address generation only when randomizing MAC
+a88869b83 Revert "Don't expose MAC address in IPv6 address"
+a1d17cd66 [Suggestion] Check foreground user for API call
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_opt_telephony/commits/Q
+
+eaa235323 filter deviceIdentifiers for subscriptionInfo if callers without perm
+b8c359e4d fix the issue that clearCallingIdentity before appops check
+dea451ca6 [security] SubscriptionGroup is exposed to unprivileged callers
+abd2dd853 filter deviceIdentifiers for subscriptionInfo if callers without perm
+134704b03 DO NOT MERGE
+b9a4fb5e3 Remove unecessary locking to avoid dead lock.
+30a016e22 Move permission checks out of synchronized block
+ecfa99e38 Guard ICC ID card string behind new identifier access requirements
+09e00c648 Guard ICC ID behind new identifier access requirements
+
+* Repository: ssh://git@github.com/AOSQP/hardware_interfaces/commits/Q
+
+dab7673e3 audio HAL - fix UAFs
+03c9b96c8 [RESTRICT AUTOMERGE] Fix CryptoPlugin use after free vulnerability.
+0a167dbcd [RESTRICT AUTOMERGE] Fix potential decrypt destPtr overflow.
+327649160 Fix potential decrypt src pointer overflow.
+
+* Repository: ssh://git@github.com/AOSQP/hardware_nxp_nfc/commits/Q
+
+c5d123c Use after free in phTmlNfc_TmlThread
+e9fb121 OOBW in phNxpNciHal_process_ext_rsp
+
+* Repository: ssh://git@github.com/AOSQP/hardware_qcom_audio/commits/Q
+
+5cf35bd hal: Fix CFI errors
+
+* Repository: ssh://git@github.com/AOSQP/libcore/commits/Q
+
+796da97f52 [DO NOT MERGE] Reject non-ASCII hostnames and SANs.
+
+* Repository: ssh://git@github.com/AOSQP/manifest/commits/Q
+
+34f454c manifest: Track our packages/apps/ManagedProvisioning repos
+75b5a0e manifest: Track some common repos from LOS
+c39d8ea manifest: Track our packages/apps/KeyChain repos
+90154f7 Track our own forks for 2021-12 ASB patching
+31efd80 Track our own fork(s) for 2021-08 ASB patching
+c19af60 Track our own fork(s) for 2021-07 ASB patching
+e7670d9 Track our own fork(s) for 2021-06 ASB patching
+87e02a9 manifest: Track our packages/providers/CalendarProvider repos
+56f18d1 manifest: Track our packages/providers/ContactsProvider repos
+09996fb Track our own fork(s) for 2021-03 ASB patching
+6387332 Track our own fork(s) for 2021-02 ASB patching
+3184814 Track our own fork(s) for 2021-01 ASB patching
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Bluetooth/commits/Q
+
+a7a3a3f5 Forbid content from MmsFileProvider in Bluetooth Share
+6cce973f Check permission before sending batch scan result
+e3082360 Check if advertiserId value matches valid advertiser
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_KeyChain/commits/Q
+
+f4fdde2 DO NOT MERGE KeyChain protect against overlays.
+269abaf DO NOT MERGE Hide overlay on KeyChainActivity
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_ManagedProvisioning/commits/Q
+
+a6abc441 Make ManagedProvisioning hide non-system overlays
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Nfc/commits/Q
+
+a5475346 Add HIDE_NON_SYSTEM_OVERLAY_WINDOWS permission to Nfc
+4b1a0461 CRLF Injection in Nfc ConfirmConnectActivity
+606f3583 Potential out of bound in phNciNfc_RecvMfResp
+5c473006 Tapjacking vulnerability when pairing Bluetooth devices with NFC
+f7329a17 Revert "Tag detection does not stop after screen off"
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_PackageInstaller/commits/Q
+
+826ed4e1 RESTRICT AUTOMERGE Don't allow tapjacking permissioncontroller
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Settings/commits/Q
+
+50be1db2e1 Settings: Add setting for clamp min auto screen brightness [2/2]
+04ec200d07 Settings: set config_materialPreferenceIconSpaceReserved to false
+ceb19bc961 Settings: enable quick QS brightness slider by default [2/2]
+d01b29d7c5 Revert "Settings: Append PixelExperience version on build display id"
+03354bbc75 Add caller check to com.android.credentials.RESET
+f4f8d77df5 Fix bypass CALL_PRIVILEGED permission in AppRestrictionsFragment
+7bffc71baf Rephrase dialog message of clear storage dialog for security concern
+dedb75b204 RESTRICT AUTOMERGE Fix make Bluetooth discoverable without additional permission
+769eb91162 BluetoothSecurity: Add BLUETOOTH_PRIVILEGED permission for pairing dialog
+ec5abb1ec4 RESTRICT AUTOMERGE Fix phishing attacks over Bluetooth due to unclear warning message
+00bc647ee2 RESTRICT AUTOMERGE Update string
+a725a1a25d RESTRICT AUTOMERGE Fix unable to send file via OPP
+d1ac013c60 RESTRICT AUTOMERGE Fix bluetooth settings will broadcast to anywhere when some cases
+139135df49 Prevent drawing on top of DevicePickerActivity
+90a37bf09a [DO NOT MERGE] Modify Wi-Fi details settings to restricted style
+9e06eb7be3 Prevent HTML Injection on the Device Admin request screen
+2cc24fdc5e Hide non-system overlay window on ActivityPicker
+fb1f00573b [Security Report] Fix Settings WifiScanModeActivity Overlaid issue
+409a4c5b0b Prevent using invalid result uri during multi user image change
+cb02e5250c RESTRICT AUTOMERGE Update String
+ea0a0a237e RESTRICT AUTOMERGE Fix phishing attacks over Bluetooth due to unclear warning message
+0bc4298579 Prevent overlay drawing on top of Bluetooth activity dialog
+8b53135a6c Add bluetooth package to permission request intent
+a01aa38ce1 RESTRICT AUTOMERGE Prevent non-system overlays from showing over notification listener consent dialog
+
+* Repository: ssh://git@github.com/AOSQP/packages_modules_NetworkStack/commits/Q
+
+af77b3d Fix the security issue that preloaded apps can get SSID & BSSID
+
+* Repository: ssh://git@github.com/AOSQP/packages_providers_ContactsProvider/commits/Q
+
+a09bf3d3 Enforce strict grammar when querying the call log
+bc730f0f Grant READ_PRIVILEGED_PHONE_STATE to contacts provider to access ICC ID
+
+* Repository: ssh://git@github.com/AOSQP/packages_providers_MediaProvider/commits/Q
+
+ab1e36e Open all files with O_NOFOLLOW.
+63b28f7 Handle 64-bit and end-of-file box lengths in IsoInterface
+
+* Repository: ssh://git@github.com/AOSQP/packages_services_Telecomm/commits/Q
+
+07ec93d9 Fix sorting issue during emergency call attempt.
+
+* Repository: ssh://git@github.com/AOSQP/packages_services_Telephony/commits/Q
+
+546b2d960 Add intent-filter priority for CONFIGURE_VOICEMAIL intent.
+
+* Repository: ssh://git@github.com/AOSQP/system_bt/commits/Q
+
+b1ff08130 Reset the IRK after all devices are unpaired
+07405d15b security: Use-After-Free in btm_sec_[dis]connected
+56e5df199 osi: Prevent memory allocations with MSB set
+98a884206 SMP: Reject pairing if public_key.x match
+9d0c9f11c Fix memory overflow.
+dec7bec04 RESTRICT AUTOMERGE Contain avrc_ctrl_pars_vendor_cmd OOB write
+40d57c200 AVRCP: pass bdaddr by value when use SdpCb
+e2e59a1f8 smp: Use SMP_TRACE_WARNING
+947ce0752 smp: Reject pairing if the public keys match
+0d600657b avrcp: Ignore AVCT commands that are too long
+bbe2ebf37 btif: Return after closing the socket
+e83a8353e DO NOT MERGE Add mutex for std::map in btif_av.cc
+c7a5aff92 AVRCP: Use calloc to zero reserved fields
+d0968807b avrc_copy_packet: Zero initialize packet
+fba375736 SDP: Only start discovery once
+ae3bb0e5c ACL: Drop broadcasts
+2cdfcb739 Fix potential OOB write in libbluetooth
+
+* Repository: ssh://git@github.com/AOSQP/system_connectivity_wificond/commits/Q
+
+da992ce Fix UAF problem in wificond
+
+* Repository: ssh://git@github.com/AOSQP/system_core/commits/Q
+
+2db41b8a1b storaged: protect global proto_loaded
+ca64cb0c45 Fix storaged memory leak
+
+* Repository: ssh://git@github.com/AOSQP/system_libfmq/commits/Q
+
+f1248aa Check for misaligned read and write pointers
+
+* Repository: ssh://git@github.com/AOSQP/system_libhwbinder/commits/Q
+
+2ed6ee3 verify embedded buffer matches address in parent
+
+* Repository: ssh://git@github.com/AOSQP/system_nfc/commits/Q
+
+1b392bf Type confusion due to race condition on tag type change
+5417c15 Memory Disclosure, OOB Write, and Double Free in NFC T3T tag
+cc7cd20 OOB Write in NFC stack when handling MIFARE Classic TLVs
+
+* Repository: ssh://git@github.com/AOSQP/system_security/commits/Q
+
+594b6de2 Make mIsDeviceLockedForUser synchronized.
+
+* Repository: ssh://git@github.com/AOSQP/system_sepolicy/commits/Q
+
+00f3916e Allow adbd to access /proc/net/{tcp,tcp6,udp,udp6}
+
+* Repository: ssh://git@github.com/AOSQP/system_tools_hidl/commits/Q
+
+2b67b69 hidl_test_java: reflect new overread check in art
+
+* Repository: ssh://git@github.com/AOSQP/vendor_pixelstyle/commits/Q
+
+0b26edd pixelstyle: update default Wallpaper
+
+
+=======================
+     2022/04/04
+=======================
+
+
+=======================
+     2022/04/03
+=======================
+
+* Repository: /commits/Q
+
+63a762391 bionic: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/bootable_recovery/commits/Q
+
+13f3936e bootable/recovery: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/build/commits/Q
+
+0c82ca1e9 build/make: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/build_soong/commits/Q
+
+791b59a0 build/soong: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/device_aosqp_sepolicy/commits/Q
+
+9de965d device/aosqp/sepolicy: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/device_qcom_sepolicy/commits/Q
+
+aaafe2d0 device/qcom/sepolicy: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/device_qcom_sepolicy-legacy/commits/Q
+
+f756775 device/qcom/sepolicy-legacy: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/device_qcom_sepolicy-legacy-um/commits/Q
+
+aad590a device/qcom/sepolicy-legacy-um: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/external_tinycompress/commits/Q
+
+a754d41 external/tinycompress: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_av/commits/Q
+
+e975798b7 frameworks/av: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+e294ab91e7ab frameworks/base: adapt to aosqp
+
+* Repository: /commits/Q
+
+2704ef3e7 frameworks/native: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/hardware_aosqp_interfaces/commits/Q
+
+fb564b3 hardware/aosqp/interfaces: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/hardware_interfaces/commits/Q
+
+2b448fda2 hardware/interfaces: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/manifest/commits/Q
+
+65076bc manifest: don't track Camera2 repos
+5ced935 manifest: Track hardware/xiaomi repos from LOS
+d0e45be manifest: don't track Updates repos
+6c0da82 AOSQP!
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Recorder/commits/Q
+
+28a62e9 packages/apps/Recorder: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Settings/commits/Q
+
+b86ef4df5c packages/apps/Settings: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/platform_testing/commits/Q
+
+d091aea3 Remove LauncherRotationStressTest; Launcher2 was removed
+
+* Repository: ssh://git@github.com/AOSQP/system_core/commits/Q
+
+102aa941f8 system/core: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/system_netd/commits/Q
+
+1154ada4 system/netd: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/system_update_engine/commits/Q
+
+4018d0e0 system/update_engine: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/system_vold/commits/Q
+
+6524e26 system/vold: adapt to aosqp
+
+* Repository: ssh://git@github.com/AOSQP/vendor_aosqp/commits/Q
+
+ed755404 vendor: add `BETA` tag for now
+6d454132 vendor: `QASSA`
+7d50e084 AOSQP: initial bringup!
+
+* Repository: ssh://git@github.com/AOSQP/vendor_pixelstyle/commits/Q
+
+2be634c pixelstyle: don't use bootanimation for now
+
+
+=======================
+     2022/04/02
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/packages_providers_CalendarProvider/commits/Q
+
+c7243f1 Add SYSTEM_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS to CalendarDebugActivity
+
+
+=======================
+     2022/04/01
+=======================
+
+* Repository: https://github.com/LineageOS/android_external_chromium-webview/commits/master
+
+daa29c1 Update arm{,64} Chromium Webview to 100.0.4896.58
+
+
+=======================
+     2022/03/31
+=======================
+
+
+=======================
+     2022/03/30
+=======================
