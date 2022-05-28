@@ -1,0 +1,743 @@
+=======================
+     2022/05/28
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/build/commits/Q
+
+602895aee Add support for separate kernels for boot and recovery [2/2]
+091ce73c4 envsetup: Fix the way we check check_product's return value
+a1e0b5648 soong: add TARGET_SPECIFIC_HEADER_PATH
+b2ab41d4d build tools: Fix TypeError when signing builds with Python3
+acbba2386 Remove passing -forceprocessing flag to R8
+11c880edb proguard_flags: Remove -useuniqueclassmembernames
+15361a218 build: not allowed yada yada yada
+948e1464d Make build ID simple
+e3f068b40 build: Only set the default verity key as a fallback
+d70439d40 libart: Turn off jit profiles and just use speed
+467c2261d build: allow device to override *caugh**caugh* prop
+b1eccfed7 build: Allow supplying a prebuilt recovery ramdisk cpio
+0edaa6a47 build: Remove comment for abilist in build.prop
+
+* Repository: /commits/Q
+
+05b9f24a cleanbuild: Add `recovery_kernel` to installclean files
+4336b9bf soong: move header override to compiler.go
+d9176c2c soong: allow overriding header files
+e16dc7ed soong: Forbid arm-linux-androidkernel-as and arm-linux-androidkernel-ld
+ba738c89 Remove passing -forceprocessing flag to R8
+110df121 soong: Whitelist perl usage
+04c6358b soong : add more tools to paths whitelist
+2df838a3 soong: Whitelist cpio for prebuilt ramdisk extraction
+933b5cff soong: change TARGET_PRODUCT to TARGET_DEVICE
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_opt_telephony/commits/Q
+
+c5241f238 Fix PDN isn't tore down after handover
+9b0586b16 Guard mIsPendingCellInfoRequest with synch block
+231b61a41 Fix a few NPEs due to trying to access a null collection's iterator
+dc7db8f82 upperLayerIndicator_r15 is optional, nr state design changed
+
+* Repository: ssh://git@github.com/AOSQP/manifest/commits/Q
+
+efb89d0 manifest: out of coffee 31e3463
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Settings/commits/Q
+
+b6ad9d6b60 Settings: Add switch to select SBC HD by default [3/3]
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_keepQASSA/commits/Q
+
+f95a5d7 keepQASSA: add @schatzrebirth & @fvckzysn as contributor
+
+* Repository: ssh://git@github.com/AOSQP/packages_services_Telephony/commits/Q
+
+8c78e119e Telephony: Use system fonts at more places
+bfb0d204c USSD: Fix alert dialog theme
+72bbe7080 Allow to disable the new scan API for manual network search.
+b15c6f11d Fix an issue wrong network operator name is displayed on MSIM devices
+1b40406b4 Fix carrier config option not hidden on a CDMA phone
+f02bfcab6 Don't start SIP service before decrypted
+2a987fb62 Telephony: remove developer mode dep for showing euicc pref
+c516974af Telephony: add permission to change wifi hot spot settings
+
+* Repository: ssh://git@github.com/AOSQP/vendor_aosqp/commits/Q
+
+70838f15 envsetup: Fix long time broken path to sh
+cb64c461 envsetup: dopush: Correct paths
+2600e8fa config: Set defaultSupervisionProfileOwnerComponent
+eaa275f8 Changed protocol from IPV6 to IP for Telus
+1c01d311 vendor: apns: Add auth_type explanation
+5438ad63 vendor: apns: Fix wrong IPV4 protocols
+99bfc914 vendor: apns: Remove unused "spn" attribute
+f81645b3 vendor: apns: Correct Telia
+e6f3a81c apn: Update giffgaff APN
+665bf443 apns: Update Vodafone NL
+f8c36b3e overlay: tv: default to night mode
+c7384a40 overlay: update default wallpaper for large-notouch
+a2c508c4 aosqp: Don't enforce specifying image name on prebuilt kernel
+fe10f963 Add support for separate kernels for boot and recovery [1/2]
+e02b9497 apns: Add IPV4V6 to EE (UK)
+9d2b7cbf apns: Add AT&T 310-280 ids
+cca5af01 apns-conf: Add TPG Singapore configs
+19a74bf5 apns: Remove T-Mobile UK
+458b13e5 vendor: apns: Add LIDL Connect
+48ab6125 apns-conf: Add Kena Mobile entries
+b84940f5 apns-conf: Update PosteMobile entries
+d214c49b apns-conf: Add ho.mobile configs
+8d2cfd24 apns-conf: Update CoopVoce entries
+aec27501 vendor: apns: Add Ting
+05807c05 apn: Add Visible Wireless (VZW)
+479a3845 lineage: Handle build type suffixes properly
+2b88a18c Enable IPV4V6 for APN Yesss
+79a45608 apns: Add Belong
+a4535cba apns: Fix giffgaff
+b30acf89 Dialer: Add visual voicemail configs from Google Dialer
+4acb21a3 qcom: Add bengal platform
+3a15cecb Add nvidia product
+868e8f9f kernel: Add TARGET_FORCE_PREBUILT_KERNEL flag
+5e840860 aosqp: apns: Update T-Mobile US to reflect latest carrier changes
+16356fa8 extract_utils: generate_prop_list: Ignore vdex/odex files too
+b9a9a698 apn: Ting: Adding missing flag to list of types
+669a085f repopick: Use project revision if available
+acdb4a67 apn: Update Greek APN list
+d6715e28 overlay: Add ignored backup transport overlay for Settings
+
+* Repository: ssh://git@github.com/AOSQP/vendor_pixelstyle/commits/Q
+
+3f8bbc7 pixelstyle: update default Wallpaper
+
+
+=======================
+     2022/05/27
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/art/commits/Q
+
+7074cbac16 art: Disable host and target debugging
+13b9dae4b8 art: Enable compiler/dalvikvm/dex2oat/runtime -O3
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+bca8bb88241 Add switch to select SBC HD by default [1/3]
+1189fad6d2c Add missing strings for SBC Dual Channel
+76163fa35ab Automatic translation import
+4f7b0cd9cbc Automatic translation import
+35b6a2b73ad A2DP codec priority [1/3]
+aa72e838865 Bluetooth: Make SBC Dual Channel optional [1/2]
+ff4d2a6c660 Add CHANNEL_MODE_DUAL_CHANNEL constant
+e5fe225e498 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+f0ce7d6db20 Allow SBC as HD audio codec in Bluetooth device configuration
+8b061e987ca BT: Always update service object in BluetoothDevice Class
+c8c24b2d7f8 Bluetooth: Avoid reentrant lock in getService method
+18e8670eb73 KeyStore: Prevent NPE with trust manager service
+77454e957d8 AbsSeekBar: Fix growRect computation
+e71058a229b AbsSeekBarTest: Fix dpToPixel computation
+fe2f00030f8 SystemServiceRegistry: Replace ArrayMap with HashMap for performance
+74384722e7a LocalServices: Replace ArrayMap with HashMap for performance
+7270be89001 ThemedResourceCache: Replace ArrayMap with HashMap for performance
+c685bc3f2fa Trace: Disable debug tracing in production builds
+acfabd4edb8 statsd: Disable native stats collection service
+ca2dbb547ec EventLog: Disable event writing in production builds
+99847433597 LayoutInflater: Opportunistically create views directly for performance
+214588084eb KeyStore: Report rate limited instead of not implemented
+17a90800667 core: jni: Switch to -O3
+388e124ec67 core: Shorten network transition timeout
+348f63349c5 ViewRootImpl: Set max fling ticks per sec to 24
+253ed2dd57d SystemUI: Fix Wakelock issue
+b08ba45ceb3 KeyStore: Block key attestation for Google Play Services
+d80884c172f base: Add permissions for Google Chrome to sign in
+f97a3144e47 StatusBar: Silence logspam
+a361db7aa63 NavigationBarFragment: Add check for NPE
+759f7022436 SystemUI: Fix SystemUI failed to go to doze issue
+89a3bd1e958 base: set scrolling friction to 0.006f
+1d75fb97b61 Gracefully handle integer overflows.
+d178f9b0752 Improve scrolling cache
+fe1e7fe3ddf Optimize AbsListView to reduce click operation latency
+8ca2831fafb avoid duplicate doFrame calls.
+77ec3f13a56 make ui touch optimization work normally.
+576e730d508 add VSYNC scheduled flag and avoid two doFrame calls in one period
+cd858e8ec7d core: touch response optimizations
+993b1754521 ScreenStabilizationTile: Fix velocity amplitude format
+532ec881f1c Zygote: enable zygote preforking (USAP pool) by default
+f266bf02041 Telephony: IMS: Cache subscriber associated uri
+0aa519652ee SystemUI: DataSwitchTile: update SIMs QS icons.
+9c295595b3f Remove carrierconfig for emergency notification
+da84c680cd3 Add minimize & pip buttons to freeform windows
+99ee153b89f Close file descriptor to avoid socket leak
+ce5b6385e6d SystemUI: Reset PUK StateMachine after PUK is unlocked
+befe57dcb01 SystemUI: there is unexpected SIM PIN input dialog.
+63eceee9c7c IMS: Add new carrier config.
+29b38487c18 IMS: Add new Carrier Config.
+cc2be215141 Telephony: Rename VoWiFi Emergency notification intent.
+866b6d2beb9 BGDexopt: Clean up ordering
+2e5fd2e5459 SystemUI: Add required priv-app permissions
+e48da98dbcd telephony: URI cannot be created with negative subIds
+6b13f3a2091 Don't change public API
+9e6c3632de6 Phone ringtone setting for Multi SIM device
+d95f692e84b Whitelist OVERRIDE_WIFI_CONFIG for phone app
+2c729d62429 Optimize IncallUI delay for voice calls
+23de3ce9423 Ims: Add suppport for "Ims Preferred" WFC Preference
+616e0fa2dee VoWifi notification for emergency calls
+de73a0aaea6 Check if EIMS when confirming network
+d1dc0401e0f net: modify connecitvity rematch logic to support MSIM devices
+56f3fce9c01 Add ICCID into CarrierIdentifier
+12d0f2ea4d8 Emergency SMS carrier config flag
+cf802396f10 IMS-VT: Add config to control holding a video call
+e973f4edc1e SMS: Parsing of CDMA MMS notification carried by SMS
+53c035556f5 Telephony: Get SIM card capacity count of SMS
+98659bfbae5 IMS: Add carrier config for RTT always enabled
+8983e6d5821 IMS: Conference URI support.
+8c201478114 IMS: Propagate RTT capability of the called party to UI
+fb1e4129025 IMS: Add CALL_TYPE for audio and video inactive
+fbbf4dd15d0 IMS: Propagate call session property changed message
+5b25395de26 Use proper coded alphabet when a contact is written into EF_ADN of USIM.
+e33fcc54938 SEEMP: framework instrumentation and AppProtect features
+b629d0e9dbc Telephony: Add DisconnectCause values for clear code
+619431c95f1 IMS: Add UT interface to query CF setting for service class.
+8c5eb74e9a6 IMS: Add flag to control reset UT capability
+1049f28916e Add config to disable CDMA call forward/waiting
+1fead156ec4 Permissions: allow to grant permissions to more apps on dirty flash
+93557540d83 PackageManagerService: Avoid NPE in matchComponentForVerifier
+8548de0571c SettingsProvider: Resolve package name that requires permission
+7511426a787 SystemUI: Improve Screen stabilization settings layout
+68e3cf0c8be SystemUI: Use MD2 icon for Screen Stabilization tile
+958feab9fed base: Screen Stabilization [1/2]
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_native/commits/Q
+
+7179839ee Properly scale touch input window through resolution changes
+39074823f SF: Correctly handle the LayerRequest bitfield
+49d1795ae sf: Fix issue with dequeueBuffer when multiple display present
+d19147fcf binder: fix inconsistent-missing-override warning
+c74851d6e Remove heap allocations from Parcel::enforceInterface
+471234d0f Enable context virtualization only for GL
+b120f623e Flush BC_FREE_BUFFER and ref ops from non-looper threads
+c862905ef binder: Bp: clear DRs in onLastStrongRef
+fb7351231 libs: Fix FD comparisons in binder
+b4c8357b1 touch response optimizations
+8fc4331eb ui: Fix array out of bound
+35c49fb58 Reland "binder: Parcel avoid too small initial allocation"
+9b84d0e7b Reorder when ImageManager thread starts
+0f4ac25d4 native: Screen Stabilization [2/2]
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_opt_net_ims/commits/Q
+
+4703e1d IMS: Add UT interface to query CF setting for service class.
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_opt_net_wifi/commits/Q
+
+78f4274da Prevent scan searching overhead
+742e7ebba wifi: don't check if WIFI_DRIVER_STATE_CTRL_PARAM is readable
+aeae5422c wifi: Check whether dev node is accessible or not before opening
+ccc4e6426 libwifi-hal: add flag to wait for kernel driver to get ready
+
+* Repository: ssh://git@github.com/AOSQP/manifest/commits/Q
+
+90981be manifest: Track our vendor/qcom/opensource/commonsys/bluetooth_ext repos
+31e3463 manifest: Track our vendor/qcom/opensource/commonsys/system/bt repos
+3124a1f manifest: Track our prebuilts/abi-dumps/vndk repos
+6949c37 manifest: Track our prebuilts/abi-dumps/ndk repos
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Bluetooth/commits/Q
+
+0ec07d12 Add switch to select SBC HD by default [2/3]
+839bb901 Disable Dual channel for SBC by default
+f7daf9a1 Revert "Make SBC Dual Channel optional [2/2]"
+77911773 A2DP codec priority [2/3]
+8b47d0e5 Make SBC Dual Channel optional [2/2]
+8ff2ab21 Assume optional codecs are supported if were supported previously
+00a72609 SBC Dual Channel (SBC HD Audio) support
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Settings/commits/Q
+
+83f1539b29 Revert "Settings: A2DP codec priority: Rewrite using BT controller"
+80d86bdb13 Settings: Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+5cf9290b95 Settings: A2DP codec priority: Rewrite using BT controller
+048110045d Settings: A2DP codec priority [3/3]
+
+* Repository: ssh://git@github.com/AOSQP/prebuilts_abi-dumps_ndk/commits/Q
+
+b7ecd98 ndk: remove libc from ABI check target
+8f2d1dd ndk: remove libz.so from ABI check target
+
+* Repository: ssh://git@github.com/AOSQP/prebuilts_abi-dumps_vndk/commits/Q
+
+b9eac8a vndk: remove libprocessgroup from ABI check target
+becb938 vndk: remove libbinder from ABI check target
+f5e794f vndk: remove libxml2 from ABI check target
+40e5e0b vndk: remove tinyxml2 from ABI check target
+bfc1671 vndk: remove libyuv from ABI check target
+87e60be vndk: remove libz.so from ABI check target
+fde184a vndk: remove libpng from ABI check target
+509d9b0 vndk: remove libjpeg from ABI check target
+
+* Repository: ssh://git@github.com/AOSQP/system_bt/commits/Q
+
+2b92a7def Interop Workaround: Add Joy-Con
+2497824d2 Allow using alternative (higher) SBC HD bitrates with a property
+06fea7d71 Explicit SBC Dual Channel (SBC HD) support
+116257cfa Increase maximum Bluetooth SBC codec bitrate for SBC HD
+25b4584a6 NULL pointer handling in btif_a2dp_get_codec_configuration
+06615fa0e Increase the attempts to open the a2dp socket
+
+* Repository: ssh://git@github.com/AOSQP/vendor_qcom_opensource_bluetooth_ext/commits/Q
+
+b5f4514 Fix compilation with SBC Dual Channel suport
+
+* Repository: ssh://git@github.com/AOSQP/vendor_qcom_opensource_system_bt/commits/Q
+
+7e714ba19 Allow using alternative (higher) SBC HD bitrates with a property
+bdd8e375f Explicit SBC Dual Channel (SBC HD) support
+1ad82da07 Increase maximum Bluetooth SBC codec bitrate for SBC HD
+
+
+=======================
+     2022/05/26
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/art/commits/Q
+
+b40d252133 Add newStringFromUtf8Bytes native implementation.
+7a8245aa69 Adjust JIT thread priority post-fork.
+d79d6f19c3 ART: Use memoization for type id table check
+059a48df4b Avoid NanoTime in InitializeClass unless stats are enabled
+68a935738b ART: Correctly exclude super-init times in classlinker
+6825a270f4 ARM64: Change code emitted by ClinitCheck.
+fc4d7679c4 Use ClassStatus::kVisiblyInitialized in reflection.
+88f4295f94 Use ClassStatus::kVisiblyInitialized in interpreter.
+b84b6d30b7 Make classes visibly initialized faster.
+b66a1fc227 Use ClassStatus::kVisiblyInitialized for allocations.
+9864d46b03 Do not hold lock when making class visibly initialized.
+766f907e4c Implement ClassStatus::kVisiblyInitialized.
+d1df807328 Move IntrusiveForwardList<> to libartbase.
+a9469d99c4 Initialize array classes in pre-fence visitor.
+bc02c43416 Only start timer in IncrementDisableThreadFlip when waiting
+ef529e635a ART: Add HasNonNegativeInputAt and HasNonNegativeOrMinIntInputAt
+7d74ae6e28 Update ResolveMethod argument for invoke-polymorphic
+c0dea15cac ART: Fix vectorizer HalvingAdd idiom
+5d2998eeb5 Fix deadlock from dl_iterate_phdr() callback
+8dbb7d50a2 Do not crash for broken stored VerifierDeps
+bacb1651d3 Small cleanup in InstructionBuilder
+64f0a3bbcc Fix uses of MaybeRecordImplicitNullCheck without special scopes
+4ba91756cc Ensure we can always enter OSR code
+aed29b9be3 Optimize stack map decoding and refactor
+32d4ba3ced Don't compile OSR methods that have phi equivalents at loop entry
+34d7c86a2e ART: Disable vectorization for debuggable graphs
+d7854f55c4 ART: ARM64: Add support for SVE feature
+70582e512f ART: Conditionally install Dbg class callbacks
+87f7c3fc65 Prevent entering IMT conflict trampoline with j.l.Object
+885d533425 Add helper script to dex2oat a JAR/APK
+54ad27d15c Remove dex2oat image-classes support
+224a56a647 Prevent overflow for AOT hotness counters
+26d31f039b Fix profile saver hotness for AOT code
+ae4cee1352 ARM/ARM64: Clean up artFindNativeMethod()
+7157d6ce13 Fix pruning invoke environment for StringBuilder append pattern
+43af245f14 Loop vectorizer should not remove instructions that can throw
+dd4b311728 Remove requirement of a ProfilingInfo for jitted code
+fcf6d0a836 Eliminate dead LoadClass when pruning ClinitCheck
+dcb2298986 art: fix -Wc99-designator
+ab32cd7c04 Protect/Unprotect regions (region space) only in debug build
+c7d1ef81de ARM64: Enable SDOT/UDOT instructions emission.
+2fcfb4ba30 ARM: Optimize Div/Rem by positive const for non-negative dividends
+3177dd171e ARM: Optimize Div/Rem by 2^n for non-negative dividends
+a26dbd2106 ARM32: Combine LSR into ADD for Div by 2^n
+5b350ddc44 Make the ART thread pool implementation use default-sized stacks on Bionic
+c9638a2832 ART: Transform Sub+Sub into Sub+Add to merge Shl
+3da385d8db separate madvise calling from critical section
+2d94d2b4f5 ART: Add recognition of optimized HRems in BCE
+b5465cca15 ART: Simplify HRem to reuse existing HDiv
+9c676a36f5 ART: Add classes having intrinsics to boot image
+867191d5f9 Add fast path for exception vreg copying.
+1362084c17 Stack maps: Refactor constructors.
+f6d41ec7d4 Stack walk: Cache CodeInfo and StackMap for current PC.
+6a504113d9 ART: Introduce stackmap with no DexRegInfo.
+2dcf59bf50 ART: Encapsulate init-optimization fields
+4386257910 ART: Use bitset in dex file verifier
+49393281e0 ART: Change unordered_set to HashSet
+98ac082aa8 ART: Cache type index validity
+128df9552f Stack maps: Micro-optimize LoadBits
+3a45afc411 Stack maps: Micro-optimize ReadInterleavedVarints
+869a628571 Revert^2 "Stack maps: Interleave consecutive varints."
+898e527ae0 Stack maps: Handle special cases using flags.
+e92ffffd0e Avoid coercing to key type in SafeMap
+6e8388de14 Revert^2 "Improve ArraySet codegen."
+ac9beb6c93 ARM64: Combine LSR+ADD into ADD_shift for Int32 HDiv/HRem
+26dcdc0370 ART: Optimize ADD/SUB+ADD_shift into ADDS/SUBS+CINC for HDiv/HRem
+0b2c0696c7 ARM64: Combine LSR+ASR into ASR for Int32 HDiv/HRem
+290cf6166f ART: Refactor InstructionCodeGeneratorARM64::GenerateDivRemWithAnyConstant
+0f5d244568 Add default argument kIsInstrumented=true.
+f6aba8e2f7 ART: Fix some types
+ef06e02956 Fix mterp assembly to use uxtw instead of lsl where needed.
+0b7e8f3f9c jni: Fix templates for clang-r377782 update.
+665d0bd50b Fix incorrect narrowing type cast
+9d6ce85e06 Add assembly support for -fsanitize=hwaddress tagged globals.
+d442da376f Make the $/# in front of constants optional
+d89f77b022 Remove MIPS support from JNI/trampoline compiler.
+0d28ef375d Move @CriticalNative arguments in registers.
+2cfb6a4eda Move entry spills determination to JNI compiler.
+9d3d075de9 jni: Do not create a managed frame for @CriticalNative.
+ea4b725764 Reduce cache memory use of libdexfile.
+389d186dff dex2oat: Fix repeatedly preparing dex files for oat file
+a68d16be32 Avoid dex2dex initialization if not compiling.
+63bbec5b45 Workaround w.r.t. an assertion failure in AOSP LLVM for a new SP
+c4740d683e constify JNINativeMethod tables
+58e9753fa0 ART: ARM64: Improve FP IsInfinity intrinsic.
+2b2e56df23 Enable support of VecLoad/VecStore in LSE
+24bb8f4e98 Utilize partially used TLABs
+30264f1651 ARM64: FP16 greater/less/greaterEquals/lessEquals intrinsics for ARMv8
+1c71b5cead ARM64: FP16.rint() intrinsic for ARMv8
+a3fb6dc23e ARM64: FP16.ceil() intrinsic for ARMv8
+770f13b013 ARM64: FP16.floor() intrinsic for ARMv8
+ed2d54638d ARM64: Pass simd half floating point feature to VIXL macroassembler.
+0bcc6e89cf ARM: Remove unnecessary kCoreAlwaysSpillRegister.
+95aa41e4b3 Remove ShadowFrame::HasReferenceArray()
+d845d48fa8 ARM/ARM64: Use trampolines for slow-path entrypoint calls.
+8b2b9314b0 ARM64: Improve BoundsCheck for constant inputs.
+91eb98f982 ART: ARM64: Optimize frame size for SIMD graphs.
+c0ea44668f ART: ARM64: Fix saved fpu stack offsets for SIMD.
+5135ba8b55 ARM/ARM64: Improve frame entry/exit codegen.
+a06d942231 Improve constant folding on logical and
+4cba732d9a ART: Preallocate offset map
+1135b84d15 Fix intersecting live ranges created by instruction scheduler
+fb5a7ea8c3 ART: Refactor SchedulingGraph for consistency and clarity
+aa055cb32b Optimize stack maps: add fast path for no inline info.
+0547e80ad8 Optimize stack map decoding.
+79bf613849 ART: Improve VisitStringGetCharsNoCheck intrinsic for compressed strings, using SIMD
+e1eb4c5ef9 Revert^2 "ARM64: toHalf() intrinsic for ARMv8"
+40444c54d0 ARM64: toFloat() intrinsics with ARMv8 FP16.
+caa8289ca4 ART: Optimize StringBuilder append pattern.
+abc1071f41 ART: Mark StringBuilder.append()s as intrinsics.
+a2305c63cd Allow disabling apex test module
+
+* Repository: ssh://git@github.com/AOSQP/bionic/commits/Q
+
+f2b075382 string: Cleanup memset
+2e3c8550b libc: arm64: fix wmemmove
+57dd9e9f2 string: Optimize strlen
+c89ffec44 Switch to musl memmem (via OpenBSD).
+655c85a1d Sync with upstream OpenBSD.
+c35f8ee36 Take a bunch of trivial patches from upstream OpenBSD.
+f4bc086a4 Clean up some obsolete OpenBSD portability cruft.
+63b7b7f45 Update upstream OpenBSD gdtoa.
+ef30a5c2b Sync with upstream NetBSD.
+4c9a71c31 Speed up seccomp with priority list.
+0c53c16cb Remove global seccomp list.
+806de8bce string: Add optimized memrchr
+fe1fcb29c string: Improve strnlen performance
+08768ceb3 libc: arm64: move macro for defining labels to bionic_asm_arm64.h
+d570a0f3d string: Improve strrchr performance
+a5348a006 string: Improve strchr performance
+b6ad31d2d libc: kryo specific memory routine
+15e4ef936 bionic: Support case-insensitive domain name hash
+53dfafc1a Avoid recording backtrace if alloc-size is outside range of interest
+929208970 benchmarks: add 16 and 32 bytes to common sizes
+d0eb9d4ca libc: arm64: optimize memcpy
+8323ce307 Neon-optimized version of the GNU symbol calculation
+ebd066ba6 Restore handling of R_GENERIC_NONE relocations
+0bf1fde63 Create linker_log[_va_list] functions
+847ae8c57 Optimize GNU hash linking for large inputs
+c6391b09a linker: stop relocating R_ARM_REL32
+39f1d1dd7 Factor out R_GENERIC_COPY
+b126789e2 Renumber arm64 TLS to match GNU values
+95d8be758 Factor out R_GENERIC_ABSOLUTE
+f735f82a1 Remove broken arm64 PREL/ABS relocations
+93478135e linker: Speed up relocation with an 1-entry symbol cache
+6e2cebf9f Staticlly allocate string buffers for realpath_fd()
+04912544d Validate defined versions in prelink_image
+5979693c4 Prelink each library only once
+ceb7156ac Inline soinfo::get_tls
+4b5941803 Track library name change.
+97d847dd8 libm: track arm-optimized-routines changes.
+b1ead1912 libc: update symbol_ordering for new jemalloc
+2427d2452 libc: arm64: add strcpy/stpcpy from arm-optimized-routines
+38fc6f062 libc: Set __bionic_asm_align to 64 for arm and arm64
+409697bc9 libc: arm64: add integer memcpy/memmove from arm-optimized-routines
+455a2395c aarch64: Increase small and medium cases for memcpy
+32d5cb618 Sync with upstream OpenBSD strstr().
+df863c43d libm: add l(l)rint/l(l)round routines from musl
+20212311f linker: Speed up find_loaded_library_by_inode()
+bb374c5df libm: sync with upstream FreeBSD.
+52623ca4d Use builtins for fma/fmax/fmin/nearbyint/rint/round/trunc on 32-bit ARM
+719fcad11 Revert "Revert "arm64: Use builtin for nearbyintf/nearbyint""
+a2687490d libc: add optimized ARM64 strrchr from newlib
+8d3161fa6 libc: import ARM strcmp from newlib
+eabd50974 libc: arm: Optimise memchr for NEON-enabled processors
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_av/commits/Q
+
+1d56665af media: Add changes to pick target specific media xml's
+4f70b1129 CamcorderProfiles: Add 8KUHD camcorder profile
+bd3192ae4 vraudioservice: correct the way vraudioservice import headers
+8762ae6c9 vraudioservice: Instantiation
+1d02d8bdd CAF update for libavextensions
+c8a7776bd stagefright: add changes related to high-framerates in CameraSource
+1c4d1deab Revert "Stagefright: Allow setting high-framerates in CameraSource"
+2b39899b9 HLS: force audio/video both to start from IDR position
+7d80e5520 Nuplayer: Update frame-rate based on display refresh rate
+76da6ee7a AudioMixer: fill 0s at right place when no more buffers available
+241ebc9a2 Fix a noise issue caused by random value of byteOrder
+8b253c553 CameraNDK: Add RAW_DEPTH image format
+d7d00efe8 Fix for system_server due to mSource is NULL
+a4a4bf4be audiopolicy: sort devices based on type, id and addr
+c756fdcf9 audiopolicy: Handle startOutput on output command thread
+1fd7eec53 APM: Wrong device selection for music during concurrency.
+4e9bb5607 Audio: Set Deep Buffer flag for music stream.
+de68a1a49 av: Add AUDIO_OUTPUT_FLAG_MMAP_NOIRQ flag.
+3cfbc3f4d audiopolicy: add null pointer check for primary hw
+f02d43b2b audio: Check if A2DP playback happens via primary output
+427fca27c effect: Disable offload for WFD compress audio
+8bc0b771e Effects: set hw volume if effect chain doesn't have volume control
+3aa05d8ef audioflinger: Throttle output if no active tracks
+330baf9d4 audioflinger: fix redundant adding to tracksToRemove
+c42f7b4d8 Avoid presentationComplete loop when hardware is paused
+fecebd5a4 AudioFlinger: Increase offload standby delay
+209a53b87 audio: Create dummy track to avoid a2dp suspend
+44693e1e0 audio: add support to enable track offload using direct output
+bc817ceb2 AudioTrack: initialize audio attributes properly
+45c3fe2bf MediaCodecsXmlParser: Make limit logging less verbose
+ce481451f JAudioTrack: fix bitwise evaluation
+be1cc161a libstagefright: Use regex patterns for updated libyuv
+a540f4f87 NuPlayer: Force update mediatime for first audio buffer
+12260011c StagefrightRecorder: force 64-bit file-offsets for files > 4GB
+5b572a479 AudioPolicyManager: Handle error from setInputDevice in startInput
+e9383cfae audiopolicy: Load the engine library dynamically
+166779341 Remove usages of USE_XML_AUDIO_POLICY_CONF
+68235cfca GraphicBufferSource: ensure EOS buffer can be submitted
+51a44a404 libstagefright: Allow HFR-60 in HAL-3 recording
+5952378b5 audio: add support for error handling of dsp SSR
+47253d214 aaudio: set primary flag for AAUDIO_PERFORMANCE_MODE_NONE
+9bbb225ec Fix memory leak in MPEG2PSExtractor
+7f9c9fcbb Fix native exception occurred when seeking mp4 file
+257b0785a Fix out of bounds access
+c3ccbba72 validate width*height doesn't overflow in image file
+d0f6e9c16 Fix exception when delete an uninitialized object
+76936dfec codec2: read fallback ION params from system properties
+793b383fa mTraits is used without been locked
+8091c0630 codec2: fallback to yuv420p color format thumbnail in C2
+1db959066 vorbisdec: support 192Khz sample rate for vorbis
+7f04eca50 aacenc: handle and warn overlapping timestamps
+d84e42b03 ld.config: add libashmemd_client.so to platform shared libs
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+3a7e2b3a80f fixup - telephony: Conditionally ignore RSSNR signal level
+4c1198448d0 Revert "Revert "telephony: Conditionally ignore RSSNR signal level""
+0ca397befc8 frameworks: Reset battery stats [1/2]
+
+* Repository: ssh://git@github.com/AOSQP/hardware_interfaces/commits/Q
+
+e2f080b9d audio hal: add interface declaration for audio hal service
+e0bb20c93 gnss: properly terminate nmea-messages if they aren't already
+
+* Repository: ssh://git@github.com/AOSQP/libcore/commits/Q
+
+36dd50bd7 Fix tests which relied on Pacific/Apia DST offset. [Q]
+7b2b930ba Track tzdb 2020a changes [Q branch]
+c4d739096 Add newStringFromUtf8Bytes native implementation.
+0d504fddf Support convert string similar to FE87-9640 to UUID
+a6c44a399 XML Pull Parser optimizations
+2d91c8a6a Preload zone rules in zygote hook
+c38f49b3a Speed up BigInteger gcd with one small argument
+f761e95a2 Use round to nearest with ties to nearest even in FP16.rint
+008bc971e Mask result with qNaN if input to rint is NaN
+0eb33348e Mask result with qNaN if input to ceil is NaN
+6402af2b7 Tests for Half.floor for NaN values
+f7319053e Add test cases for libcore FP16 APIs
+90f3919ee Replace comparison check for infinity with isNaN function call
+5a1e5232b Fixed weird variable naming in FP16.java
+676f44c10 Mask result with qNaN if input to floor is NaN
+9c9630807 Add test cases for libcore FP16 APIs
+663767d9e Round to nearest even instead of to nearest 0.5 up
+d44d15da5 Correct the exponent value calculated when converting from float to half
+3c1709d74 Move Half implementations to libcore to allow ART optimizations
+
+* Repository: ssh://git@github.com/AOSQP/manifest/commits/Q
+
+bb38077 manifest: Track our external/jemalloc_new repos
+c42ab89 manifest: Track our external/arm-optimized-routines repos
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Settings/commits/Q
+
+5d4b4e7401 Settings: Reset battery stats [2/2]
+554235eaf1 PowerUsageSummary: Remove advanced battery menu item
+e32686c80b Settings: show battery times in summary
+11db684399 Settings: PowerUsageSummary: open advanced usage on header click
+
+* Repository: ssh://git@github.com/AOSQP/system_core/commits/Q
+
+5c4ef1d56 Remove the global seccomp option.
+dc5082e87 healthd: Add support for BMS and WiPower.
+5ecd1c665 adbd: remove ifdefs guarding root/secure.
+1234ea489 adb: go back to standard adb root prop
+2e278959a adb: Add ro.adb.secure.recovery handling
+96f0f861b Make adb use a custom prop for adb root
+7f499723f adb: go back to standard adb root prop
+c3a205d57 adb: Also check for ALLOW_ADBD_ROOT
+79d278f25 Make adb use a custom prop for adb root
+66ba60a7e Add adb_root daemon and hooks
+6ef0cf444 Modifying /dev/memcg permissions.
+50dcfad08 lmkd: add EPOLLWAKEUP event for PSI polling
+6ebf3dbdd init: Weaken property override security for the init extension
+884195695 init: workaround SafetyNet check on user build variant
+1be7e611f debuggerd: add `AOSQP` version to tombstones
+
+
+=======================
+     2022/05/25
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+161810531d4 Add auth framework for outgoing SMS messages.
+ee52446189d Telephony: Don't crash for too long baseband version
+0f87e841230 QS: Use Settings.Panel intents for WiFi and NFC
+61f0338d16e BatteryStatsImpl.java: Stop resetting battery stats after reboot with battery level >= 90
+18ab7b3de99 Fix list style alert dialog to use system font
+a4b0967099e NotificationPanelView: Fix initial touch co-ordinates
+39904eed5cf base: Always clear package cache when upgrade is detected
+c03a48abd9f Add switch for vpn, data saver and roaming icons
+39c3c1cd9e5 SystemUI: Add statusbar NFC icon
+87dd9d7b131 SystemUI: Launch statusbar tuner externally
+
+
+=======================
+     2022/05/24
+=======================
+
+
+=======================
+     2022/05/23
+=======================
+
+
+=======================
+     2022/05/22
+=======================
+
+
+=======================
+     2022/05/21
+=======================
+
+
+=======================
+     2022/05/20
+=======================
+
+
+=======================
+     2022/05/19
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_native/commits/Q
+
+8148f855b Add dalvik-heap device configs for 8/12/16 GiB devices
+
+
+=======================
+     2022/05/18
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+a4bfced64bd SystemUI: Allow to hide arrow for back gesture [1/2]
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Settings/commits/Q
+
+6f4938d7c7 Settings: Allow to hide arrow for back gesture [2/2]
+b87da4a8c7 Settings: Add toggle disable SIM
+
+
+=======================
+     2022/05/17
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+6314bfc6bb5 SystemUI: remove notch check in StatusbarNetworkTraffic [1/2]
+e29fc1e1dc3 PixelPropsUtils: Update fp for May ASB
+d24e3cc2a5f PixelPropUtils: GamesProps: add Mobile Legends
+5f4f99c8bcd PixelPropsUtils: Update fp for April ASB
+2f18ed83994 PixelPropUtils: Update fp to March 2022
+b4077e2175b User toggle for StreamProp [1/2]
+3b2c772a697 PixelPropsUtils: Invite streaming apps to the party
+01e86ddc0e4 PixelPropsUtils: Remove spoofing for currently supported Pixels
+5b555c5fbbb User toggle for GamesProp [1/2]
+3251630158d User toggle for unlimited photos storage [1/2]
+a7a19973a63 PixelPropsUtils: Update raven and redfin fingeprint to Feb 22
+fbbbbff0c21 PixelPropUtils: Bail out early when required
+1b44716ae15 PixelPropUtils: Extend list of packages to keep
+efd3269f0b4 PixelPropUtils: Add GamesProps
+aa5948709b7 PixelPropUtils: Consolidate google app checks
+c3bd0c4f6b0 PixelPropsUtils: Do not change props for play store
+6c5f5ca6d1a base: PixelPropsUtils: Whitelist Google Dialer
+b814cf04eec Base: PPU: Add Gmail to spoof list Another app blessed with monet compatibility.
+dd9de7087a4 PixelPropsUtils: bring back wallpaper collection
+5bd7d2586af PixelPropsUtils: Update raven fingerprint to January 2022
+fba0feb2ebf PixelPropsUtils: Update redfin fingerprint to January release
+d4e532f3308 PixelPropsUtils: Spoof Pixel XL for Google Photos
+42a30de7c83 PixelPropsUtils: Add chrome into extra packages list
+9ba3767f5d1 PixelPropsUtils: Update fingerprints to december release
+d7a2c974ebc PixelPropsUtils: Whitelist GoogleCamera
+21ad9f7d4aa PixelPropsUtils: Use redfin props for some apps
+cc528ac7477 PixelPropsUtils: Update props to SD1A.210817.036
+5bf754d8883 PixelPropsUtils: Use Build.VERSION.INCREMENTAL
+a2354edd634 PixelPropsUtils: Set userdebug as Build.TYPE for GMS
+f7d69eb3145 keystore: Block key attestation for SafetyNet
+b8af93467e3 PixelPropsUtils: Rewrite logic
+9ed5eeb404a PixelPropsUtils: Use Pixel 6 props
+d2efe8c0976 Introduce PixelPropsUtils
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_keepQASSA/commits/Q
+
+b034010 keepQASSA: remove notch check in remove notch check in StatusbarNetworkTraffic [2/2]
+b6573ab keepQASSA: User toggle for StreamProp [2/2]
+b04e470 keepQASSA: User toggle for GamesProp [2/2]
+ad6f4ee keepQASSA: User toggle for unlimited photos storage [2/2]
+
+
+=======================
+     2022/05/16
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/frameworks_base/commits/Q
+
+42cbd39acc3 SystemUI: Show infinity for large notification counts
+e6e742483c2 SystemUI: Forward-port notification counters [1/2]
+359848e6ca0 SystemUI: make OxygenOS dismiss all followed accent color
+6180919dd8d SystemUI: Hide clear-all button when QSPanel is expanded
+c8768947fe4 SystemUI: Add ripple effect to oos dismiss all
+f9e8b9758e7 SystemUI: Fix oxygenos dismiss all appearing when there arent any notifications to dimiss
+b8b35850138 SystemUI: OxygenOS dismiss all: animate it todo: cleanup of all this mess
+98599ec83f1 SystemUI: OxygenOS dismiss all: disable animations and disable it by default
+0121abd19dc SystemUI: OxygenOS styled dismiss all button [1/2]
+e33de97c21b ActionUtils: Import Restart SystemUI API
+754c0a1b784 SystemUI: Fix Statusbar Icon Colors on Lockscreen
+6614727f768 SystemUI: Fixup colored sb icon toggle
+3355d66d285 SystemUI: Make use of app icon in NotificationHeaderViewWrapper togglable [1/2]
+23a0ebe72fa SystemUI: NotificationHeaderViewWrapper: use app icon instead of notification icon small
+4261e50d086 SystemUI: Make colored Statusbar Icons optional [1/2]
+bb987aa3161 SystemUI: StatusBarIconView: use app icons instead of provided notif one
+352bef841d8 SystemUI: set columns in QS landscape to 2 by default
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_keepQASSA/commits/Q
+
+6b51b60 keepQASSA: Forward-port notification counters [2/2]
+b9f904c keepQASSA: OxygenOS styled dismiss all button [2/2]
+358aa4b keepQASSA: Add SystemUI restart for Colored Statusbar & Header Icons
+f65c501 keepQASSA: Make use of app icon in NotificationHeaderViewWrapper togglable [2/2]
+e6b8aa5 keepQASSA: Make colored StatusBar icons optional [2/2]
+
+
+=======================
+     2022/05/15
+=======================
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_Settings/commits/Q
+
+e028a98ba2 Settings: migrate customisation to keepQASSA [1/2]
+
+* Repository: ssh://git@github.com/AOSQP/packages_apps_keepQASSA/commits/Q
+
+7f449fd keepQASSA: disable empty features for now
+97f2f4d keepQASSA: migrate customisation to keepQASSA [2/2]
