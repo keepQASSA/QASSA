@@ -1,0 +1,357 @@
+=======================
+     2022/07/27
+=======================
+
+* Repository: ssh://git@github.com/keepQASSA/packages_apps_keepQASSA/commits/Q
+
+de67ed7 keepQASSA: add screenshot category in misc feature
+
+
+=======================
+     2022/07/26
+=======================
+
+* Repository: ssh://git@github.com/keepQASSA/frameworks_base/commits/Q
+
+7f8c62ad4f0 Ignore window secure flags [1/2]
+
+* Repository: ssh://git@github.com/keepQASSA/packages_apps_keepQASSA/commits/Q
+
+fe0ce29 keepQASSA: Ignore window secure flags [2/2]
+
+
+=======================
+     2022/07/25
+=======================
+
+* Repository: ssh://git@github.com/keepQASSA/build/commits/Q
+
+2af7a584f check_boot_jars: Add FMRadio to whitelist
+
+* Repository: ssh://git@github.com/keepQASSA/frameworks_base/commits/Q
+
+a0130368355 update-current-api
+
+* Repository: ssh://git@github.com/keepQASSA/packages_apps_keepQASSA/commits/Q
+
+91e81a5 keepQASSA: add more battery styles [2/2]
+
+
+=======================
+     2022/07/24
+=======================
+
+* Repository: ssh://git@github.com/keepQASSA/frameworks_base/commits/Q
+
+d92cee35d17 SystemUI: add more battery styles [1/2]
+e8ec8164d45 Battery bolt: Preserve unicode bolt color
+c2fd9836a8f SystemUI: adjust battery percent and bolt
+95f8782035e SystemUI: Decrease Landscape battery size
+
+
+=======================
+     2022/07/23
+=======================
+
+* Repository: ssh://git@github.com/keepQASSA/bionic/commits/Q
+
+e3c3ff9de linker: Add support for opening zip files by fd paths
+
+* Repository: ssh://git@github.com/keepQASSA/frameworks_av/commits/Q
+
+b3b85415d C2SoftAvcEnc: Use dimensions from mSize instead of input buffer
+
+* Repository: ssh://git@github.com/keepQASSA/frameworks_base/commits/Q
+
+5583b0d7eaf SystemUI: Allow privileged system apps to access screenshot service
+5cf66f05860 core: Remove old app target SDK dialog
+33f942f202a Secure reset battery stats permission
+96002a6c8eb base: Grant battery stats reset permission to Settings
+b860caab60c Add a config to state whether a device supports increased touch sensitivity. (#2)
+205048e0198 Editor: Disable magnifier position animation
+
+* Repository: ssh://git@github.com/keepQASSA/libcore/commits/Q
+
+02a6ee863 ZipFile: Add support for opening zip files by fd paths
+b27d0a9f8 Add Zygotehooks.indefiniteThreadSuspensionOK
+
+* Repository: ssh://git@github.com/keepQASSA/system_core/commits/Q
+
+601339dc2 enable kernel mitigations for file spoofing
+c4095a854 enable kernel mitigations for link races
+905e50959 zero sensitive information with explicit_bzero
+1fbb5a08d tighten up mount permissions
+
+* Repository: ssh://git@github.com/keepQASSA/system_security/commits/Q
+
+2411230 keystore: Block key attestation for Google Play Services
+
+
+=======================
+     2022/07/22
+=======================
+
+* Repository: ssh://git@github.com/keepQASSA/frameworks_base/commits/Q
+
+50e1d6d5647 SystemUI: Fix uneven volume icon padding in status bar
+f4982b07d57 stop auto-granting location to system browsers
+db10b5880e0 always set deprecated Build.SERIAL to UNKNOWN
+3af604ad39a try to fix upstream status bar+keyguard bug
+424ff36ad2d SystemUI: Qs: Force Expanded Notifications [1/2]
+83099c7bbef base: Install seccomp filter even if selinux is permissive
+b8597e7bc58 Make screenshot delay configurable [1/2]
+48210c88ee3 Long screenshot: Use helper function takeScreenshot
+38a29200d7b config: Allow gms to access persistent data partition
+bd63fe02475 Allow faster app switching
+572f87b8548 base: Q seekbar: Tweak it's size
+5655d0fe1f0 BatteryMeter: Make Bolt symbol optional [1/2]
+1249e2a1ecd BoostFramework: Kill logcat spam on devices without QPerformance
+cd579757039 Add synchronization for invokeForAllObservers call
+1c516c63ed9 Return null on failed insert due to permissions
+8f6aed9fb99 base: Remove keyguard delay completely
+6a7dca99ddd API changes due to importing RI BigInteger
+c3cc85e6b93 Send top-app's render thread tid to perf HAL
+47a4a2006bd Remove unused / unimplemented CorePlatformAPI methods.
+02e20e07e80 Remove references to Dalvik logger.
+5d4eb7be161 trigger file removal when slice permission is removed
+3cffbc7b8e5 Throw XmlParserException when client tag cannot be found when parsing slice permissions.
+3602e89b5c5 [viewcompiler] Switch to slicer DEX opcode definitions
+e14c3920733 PackageInstallerSession: Minor refactorings and cleanups
+1294f8b556b Simplifying callback calls in PackageInstallerSession
+7b156478ce3 Fix PackageWatchdog::syncRequestsAsync and related code
+1a9f1c397ef framework/base: add parallel verifyV1
+68fda507f7c remove obsoleted cgroup follow option
+c00a3ff4947 perf: Load performance lib from Zygote
+7ff5d5d757e perf: enable gesture fling boost by default
+eef66c785a4 [SQUASH] BoostFramework: To Enhance performance.
+a9c5a6bd5b4 Fix toggling animations off
+438c9670110 Allow toggling animations off [1/2]
+751c4c6634c Fix layout gravity for status bar right clock
+97e07e25f46 Do not apply date customization to QS clock [1/2]
+60f3f8e5767 Add option to auto hide status-bar clock
+b4a909d46b7 Statusbar clock customizations
+f20159f5d26 Add separate tunable for clock seconds
+01389360658 Allow using position tunable to hide clock
+b2044641183 Use alphaoptimized layout for icons on left
+81d61059341 SystemUI: refactor Show 4G instead of LTE [1/2]
+5ea61dc437e MobileSignalController: Fix quick switching of VoLTE icon style
+0f9548b4015 SystemUI: Blacklist MobileSignalController for tuner
+68215794e5a Option to Display Data Disabled Indicator Icon [1/2]
+c573e1b086b Make roaming indicator optional [1/2]
+1e69d2f36db Add option to select VoLTE icon [1/2]
+0da828c355f Ability to toggle VoLTE icon in statusbar [1/2]
+ee5f2a6ed67 SystemUI: Use our default VoLTE icon
+b26d044762a Fix VOLTE icon color on Light statusbar
+23a9d75caaa SystemUI: Enhancement for volte icon
+a77bb077631 SystemUI: Query IMS state after CapabilityCallback is regisered
+467ae22f24e SystemUI: Fix HD icon missing
+184cc03629c Adapt to IMS registration changes.
+6f0693af9d2 SystemUI: Refactor the feature of volte icon
+5ce2bdfe456 SystemUI: Fix volte icon doesn't update in real time
+7febffe4ff7 SystemUI: Add new configuration for displaying Volte icon
+767e39625c0 base: SystemUI: stop crashing qs tiles during boot
+7d70342b79b SoundTile: Change ZEN_MODE_NO_INTERRUPTIONS to ZEN_MODE_ALARMS
+601e74e46aa Add Sound tile to Quick Settings
+d34c3167627 Disable tuner pref for battery
+dbb190ae6ea SystemUI: Allow using tuner API for Global settings
+490e8966f08 TunerService: Prevent NPE with tunable
+567e1f33c73 Restore cache clean up code in PackageManagerService
+b2a1eb009c2 base: Use ro.build.date.utc to signal upgrades
+ec1d77acf48 base: Make Build.DATE visible to apps
+5e5801139a2 QS: Fix extra lines when icon number is small
+5437fde5583 DefaultPermissionGrantPolicy: Silence harmless errors
+ba0661e817b ListView: Disable dividers by default
+415e8fe990a PMS and WMS deadlock when uninstalling APP
+11dbfb2ce48 Not register sensor if StatusBar state is not KEYGUARD
+dc6922d73e3 os: Process: Fix wrong code in isThreadInProcess
+10cb5b9412d Catch IllegalStateException when verify APK
+e825823efea lib/androidfw: Fix reversed logic
+a9e00b2c61c Process: Use audio-app cpuset if available
+
+* Repository: ssh://git@github.com/keepQASSA/frameworks_native/commits/Q
+
+f260c6fd8 libbinder: Suppress log spam when unlinking death recipients
+d4657f364 libbinder - avoid pthread_cond_broadcast per call
+a913fedcb vulkan: avoid waiting for service.sf.present_timestamp creation
+aeb3146c3 libbinder: avoid global mutex every binder call
+
+* Repository: ssh://git@github.com/keepQASSA/packages_apps_Settings/commits/Q
+
+c6a3e73812 Add preference for increased touch sensitivity (glove mode)
+8d16d1de04 Settings: Improve battery stats reset strings
+f3562df256 Settings: Ignore custom app space management activities
+7456074153 Settings: Remove app uninstall and disable confirmation dialogs
+3570348605 Settings: Fix inconsistent USB preference screen title
+b89a8364a1 Settings: Fix stray divider in connected devices screen
+1309a92253 Settings: Tint data usage bar with activated control color
+3f6c70475c Settings: Fix invalid private DNS help text if URI is missing
+ecd6c906d4 Settings: Remove storage manager activation warning
+19d31cc33f Settings: Unlock mobile network settings when airplane mode is on
+8a5ef95521 Settings: Launch APN settings on main activity stack
+aea83be8ed Settings: Launch mobile network settings in main activity stack
+6f14315a5e Settings: Expose feature flag UI on all builds
+
+* Repository: ssh://git@github.com/keepQASSA/packages_apps_keepQASSA/commits/Q
+
+14646fc keepQASSA: Force Expanded Notifications [2/2]
+410af06 keepQASSA: Set default screenshot delay properly
+cf1799f keepQASSA: Make screenshot delay configurable [2/2]
+7fbc51f keepQASSA: Make Bolt symbol optional for battery meter [2/2]
+8c488ed keepQASSA: Allow toggling animations off [2/2]
+6a6c041 keepQASSA: Do not apply date customization to QS clock [2/2]
+a0e452a keepQASSA: Bring back clock customizations
+5a4fd31 keepQASSA: migrate strings&arrays clock to keepQASSA [2/2]
+40a5583 keepQASSA: set qs_show_brightness_slider to 1 by default
+548e3a9 keepQASSA: refactor Show 4G instead of LTE [2/2]
+b12b0a0 keepQASSA: Option to Display Data Disabled Indicator Icon [2/2]
+16c827c keepQASSA: Make roaming indicator optional [2/2]
+44aab59 keepQASSA: Add option to select VoLTE icon [2/2]
+0399d65 keepQASSA: fix missing
+5775c6a keepQASSA: add SystemSettingSeekBarPreference
+2d95d3e keepQASSA: Ability to toggle VoLTE icon in statusbar [2/2]
+
+
+=======================
+     2022/07/21
+=======================
+
+
+=======================
+     2022/07/20
+=======================
+
+
+=======================
+     2022/07/19
+=======================
+
+
+=======================
+     2022/07/18
+=======================
+
+
+=======================
+     2022/07/17
+=======================
+
+* Repository: ssh://git@github.com/keepQASSA/packages_apps_Settings/commits/Q
+
+8f587325fa Settings: Dashboard: Redesign searchbar header
+b58f9eff77 keepQASSA: migrate clock strings&arrays to keepQASSA [2/2]
+
+
+=======================
+     2022/07/16
+=======================
+
+* Repository: ssh://git@github.com/keepQASSA/packages_apps_keepQASSA/commits/Q
+
+52d74fd keepQASSA: make our features searchable
+
+
+=======================
+     2022/07/15
+=======================
+
+* Repository: ssh://git@github.com/keepQASSA/packages_apps_keepQASSA/commits/Q
+
+973517b keepQASSA: fixup! qs_show_auto_brightness defaultValue e6ca9a3
+f2a3458 keepQASSA: add @Haze_act into team
+
+
+=======================
+     2022/07/14
+=======================
+
+* Repository: ssh://git@github.com/keepQASSA/frameworks_base/commits/Q
+
+dd4ec40cf72 Fix Google Markup FC
+414808f2422 AccountManagerService: Fix ConnectionRecord Leak
+9b2ae5db866 FingerprintManager: return "Try again" by default
+40338926933 Fix to handle duplicate call id for conference call
+b7e9ebb8465 Resolve NumberPicker display abnormal issue.
+4821e15c52d Update wifi interface ip state upon receiving ap disable event
+cc54c1f9b55 Always use a positive value for timestamp
+3996c2fdb3e hwui: Avoid fake high input latency while vsync drifting
+cf1287ae971 base: Handle NPE for ContentObserver
+61706145a58 Add missing SET_WALLPAPER_COMPONENT permission to prebuilt wp picker
+2a25ba3ef5c Grant BIND_WALLPAPER permission to prebuilt wp picker
+ce80592f75f Grant Wellbeing the SUSPEND_APPS perm if already declared
+61ce2978763 Fix Photosphere/Camera FCs
+0a205c19820 media: Define MPEG-H Encoder Format
+32e54410526 audio: add support for extended formats
+751dd5bbdb3 SystemUI: assist: disable old Assistant animations
+da86fde9907 Add colors to assistant animation
+28c84bdf24a ViewGroup: Remove child parent when a new view is added
+87369af440c AMS: Fix the null pointer exception in IntentResolver
+892f9089714 FrameworkBase: Fix NullPointerException of AMS
+6968a6e47bb Convert VPN Server endpoint to numeric
+c1cf864147d hwui: Relax the desiredPresent time in RenderAhead feature
+8d80380f568 Fix LockdownVpnTracker deadlock when resetting legacy Always-On VPN
+5c23b92c136 Fix Another SystemUI crash
+004e71d8aca Disable More Debugging
+6826dab6b34 Reset permission when network becomes default again.
+84bcd7107b8 Fix SystemUI crash
+46553a87e4b base: call log limit 500=>5000
+b84e3043312 Select the proper request list size
+dc840352491 base: Grant storage permission to ThemePicker
+9bdbb1aa8cf Fix Google dialer FC due to missing permissions
+2254140c722 Allow chromium to sign in
+6f11bb3ab81 Fix Google Calendar FC
+8a691aad1d0 Fix permissons for ContactsProvider2
+a5530c0246f Fix Fi permissions
+4866453d910 Fix Android 7.0 GApps permisions which were causing F/C
+1c8eb7d5d85 Wallpaper is half black after rotating quickly
+e119baeccad null check before accessing getCurrentScore()
+9871317f4d6 Reduce log verbosity: Don't spam logcat
+28b9cf26435 SettingsProvider: Add missing INTERACT_ACROSS_USERS_FULL permission
+9888138bcee services/job: Fix a Jobscheduler bugs
+ccca4e30c44 Fix incorrect context classloader initialization in system_server
+5f44a7eb881 StorageManagerService: Fix for system_server crash while booting
+e191c238f82 Fix MtpDatabase multithreading NullPointerException
+6c8fed933d9 ViewRootImpl: Fixed memory leak caussed by viewrootImpl objects
+cf542af0da8 BackupAgent: Add backup shared mode
+c0ff5fd06bb NavigationBarView: Avoid NPE before mPanelView is created
+974fbed9e54 SystemUI: Remove annoying log caused by aosp bug
+76cfdbf14ce DEBUG: Turn off some debugging we don't need.
+b69a737e854 AlarmManagerService: Add null check to QCNsrmAlarmExtension call
+fc9409b999b Prevent NPE due to unchecked r.uid
+8957be643b7 Avoid NPE in system_server in bringDownServiceLocked()
+e88794d50d3 Crash occured due to null pointer exception.
+50d855c9485 ActivityManager: fix npe in ProcessRecord
+33bfd459f4a Clear all lingering notifications when network is disconnected
+7d3691a4cf9 frameworks: Fix null pointer Issue
+7eab2026880 view: add null check for dispatch touch view
+b7d63a94b48 InputMethodManager: Fixed memory leak when windowDismissed
+22d062bb60d BatteryStats: Update WifiState even if EnergyInfo is invalid
+1df99451c68 BatteryService: scheduleUpdate asynchronously
+3e20785df5a display: Validate activePhysIndex before access
+afa3f0212bf WindowStateAnimator: Fix NPE with wallpaper offset
+81f2c5f2706 Fix for, BT Carkit position issue when music app is killed
+015308ba2ae Audio: Do not disconnect profiles till Bluetooth Off
+5fcf2a492de Fix bootanimation stack overflow
+fdc4931b2b6 Whitelist WRITE_DEVICE_CONFIG for shell
+9dcadf08021 Add missing STORAGE_INTERNAL permission for BackupRestoreConfirmation
+1250373236e NetworkStatsHistory: Prevent IllegalArgumentException
+34eb5e337b1 Prevent crash in TTS engine due to improper configuration
+8d66dad400f Framelayout: Fix NPE when view is missing
+55aab1fcdb2 SystemUI: Keyguard: Check for a null errString
+53e0c6691a0 FATAL EXCEPTION IN SYSTEM PROCESS: android.ui
+8197bc9c80a KernelWakelockReader: stop the panic
+e7ad4e6c4c1 ParcelFileDescriptor: can we stop the panic here?
+f89e32f1511 Enable NSRM (Network Socket Request Manager).
+dc26e5966b3 Rename the backup file to base file when backup exists
+c37b5be7de6 SQLite: Do integrity_check only once
+08a70b5007e SQLiteDatabase: Catch corrupt exception during transaction
+ce3b29ab62d base: limit direct share targets to reduce lag
+6473d4f3d20 aapt: Fix compiler warning (clobbered by longjmp)
+7196e716424 aapt: add check for untranslatable "string-array"s
+41fd8a543a7 aapt: Use a std::map instead of a SortedVector
+7317c2269aa aapt: Speed up the style pruning
+d1b2015af0d display: Don't animate screen brightness when turning the screen on
+ec116094331 connectivity: Configure additional TCP parameters
+c68df55a946 MountService: Prevent NPE with DropBoxManager
+e0f932a651b MountService: ensure VolumeRecord with UUID exists before modifying
+e3186a56bcd Settings:Bugfix for NPE, Only valid screen power consumption need to smear
+905d1170e1f SystemUI: Fix SystemUI Crash
